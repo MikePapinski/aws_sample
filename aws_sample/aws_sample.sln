@@ -1,12 +1,20 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cloud.Dashboard", "Cloud.Dashboard\Cloud.Dashboard.csproj", "{C16FF3C1-0C0F-4E0B-8BEC-9F0FFD5216DA}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FXbox.Cloud.Services.Identity", "FXbox.Cloud.Services.Identity\FXbox.Cloud.Services.Identity.csproj", "{411F6E17-C242-4A54-B17E-1EC341AB8ADA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cloud.AgentActivity", "Cloud.AgentActivity\Cloud.AgentActivity.csproj", "{21CBC6DE-DF46-48C4-8ED8-1DBC01BF19BA}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FXbox.Cloud.Services.Configuration", "FXbox.Cloud.Services.Configuration\FXbox.Cloud.Services.Configuration.csproj", "{96977509-9C88-4E0F-B169-1DBF3909A516}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cloud.ConfigStore", "Cloud.ConfigStore\Cloud.ConfigStore.csproj", "{CC55B1A0-24AA-4F8C-9B8E-CBCD3687DF31}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FXbox.Cloud.Services.Agents", "FXbox.Cloud.Services.Agents\FXbox.Cloud.Services.Agents.csproj", "{AB0F2E2A-B5B5-404C-B764-0B08044D397F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cloud.AgentHub", "Cloud.AgentHub\Cloud.AgentHub.csproj", "{3842A097-C45A-4336-AE23-241F6CE175B9}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FXbox.Cloud.Presentation.Dashboard", "FXbox.Cloud.Presentation.Dashboard\FXbox.Cloud.Presentation.Dashboard.csproj", "{70F6458A-27CE-4F90-BB4A-1F2CB5C71389}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FXbox.Cloud.Presentation.Agents", "FXbox.Cloud.Presentation.Agents\FXbox.Cloud.Presentation.Agents.csproj", "{2B1D5A92-A67D-47BE-88AA-92626B78F764}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FXbox.Cloud.Shared", "FXbox.Cloud.Shared\FXbox.Cloud.Shared.csproj", "{A08D3366-BE29-40D9-A40D-1489C5605FD7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FXbox.Cloud.Gateway.Dashboard", "FXbox.Cloud.Gateway.Dashboard\FXbox.Cloud.Gateway.Dashboard.csproj", "{C3B06C8A-3A5A-4F41-8470-C09594771C6D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FXbox.Cloud.Gateway.Agent", "FXbox.Cloud.Gateway.Agent\FXbox.Cloud.Gateway.Agent.csproj", "{93BF185F-7616-42BC-8D3A-07C0FF143DEC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -14,21 +22,37 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{C16FF3C1-0C0F-4E0B-8BEC-9F0FFD5216DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{C16FF3C1-0C0F-4E0B-8BEC-9F0FFD5216DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{C16FF3C1-0C0F-4E0B-8BEC-9F0FFD5216DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{C16FF3C1-0C0F-4E0B-8BEC-9F0FFD5216DA}.Release|Any CPU.Build.0 = Release|Any CPU
-		{21CBC6DE-DF46-48C4-8ED8-1DBC01BF19BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{21CBC6DE-DF46-48C4-8ED8-1DBC01BF19BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{21CBC6DE-DF46-48C4-8ED8-1DBC01BF19BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{21CBC6DE-DF46-48C4-8ED8-1DBC01BF19BA}.Release|Any CPU.Build.0 = Release|Any CPU
-		{CC55B1A0-24AA-4F8C-9B8E-CBCD3687DF31}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{CC55B1A0-24AA-4F8C-9B8E-CBCD3687DF31}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{CC55B1A0-24AA-4F8C-9B8E-CBCD3687DF31}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{CC55B1A0-24AA-4F8C-9B8E-CBCD3687DF31}.Release|Any CPU.Build.0 = Release|Any CPU
-		{3842A097-C45A-4336-AE23-241F6CE175B9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{3842A097-C45A-4336-AE23-241F6CE175B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{3842A097-C45A-4336-AE23-241F6CE175B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{3842A097-C45A-4336-AE23-241F6CE175B9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{411F6E17-C242-4A54-B17E-1EC341AB8ADA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{411F6E17-C242-4A54-B17E-1EC341AB8ADA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{411F6E17-C242-4A54-B17E-1EC341AB8ADA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{411F6E17-C242-4A54-B17E-1EC341AB8ADA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{96977509-9C88-4E0F-B169-1DBF3909A516}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{96977509-9C88-4E0F-B169-1DBF3909A516}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{96977509-9C88-4E0F-B169-1DBF3909A516}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{96977509-9C88-4E0F-B169-1DBF3909A516}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AB0F2E2A-B5B5-404C-B764-0B08044D397F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB0F2E2A-B5B5-404C-B764-0B08044D397F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB0F2E2A-B5B5-404C-B764-0B08044D397F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB0F2E2A-B5B5-404C-B764-0B08044D397F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{70F6458A-27CE-4F90-BB4A-1F2CB5C71389}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{70F6458A-27CE-4F90-BB4A-1F2CB5C71389}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{70F6458A-27CE-4F90-BB4A-1F2CB5C71389}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{70F6458A-27CE-4F90-BB4A-1F2CB5C71389}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2B1D5A92-A67D-47BE-88AA-92626B78F764}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B1D5A92-A67D-47BE-88AA-92626B78F764}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2B1D5A92-A67D-47BE-88AA-92626B78F764}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2B1D5A92-A67D-47BE-88AA-92626B78F764}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A08D3366-BE29-40D9-A40D-1489C5605FD7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A08D3366-BE29-40D9-A40D-1489C5605FD7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A08D3366-BE29-40D9-A40D-1489C5605FD7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A08D3366-BE29-40D9-A40D-1489C5605FD7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C3B06C8A-3A5A-4F41-8470-C09594771C6D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C3B06C8A-3A5A-4F41-8470-C09594771C6D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C3B06C8A-3A5A-4F41-8470-C09594771C6D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C3B06C8A-3A5A-4F41-8470-C09594771C6D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{93BF185F-7616-42BC-8D3A-07C0FF143DEC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{93BF185F-7616-42BC-8D3A-07C0FF143DEC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{93BF185F-7616-42BC-8D3A-07C0FF143DEC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{93BF185F-7616-42BC-8D3A-07C0FF143DEC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
