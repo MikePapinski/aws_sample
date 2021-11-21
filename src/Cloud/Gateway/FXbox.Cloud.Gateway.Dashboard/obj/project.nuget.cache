@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ziMAkAuV6rNIrm5bNH6fahOCbxRwJyFNNyLdb/V5nhseuRc2fowEJPyd9GYCcW59dHJ8DuPUX08yeCAwtvqhpA==",
+  "dgSpecHash": "y90U1LQmfY/cu0GptOvZpxcoIh2YFFuQzGyEX7HX+dBO+pgtVuY1gAwYlGIvRiR9CpVyyihqhPD/+x3ntnCSuA==",
   "success": true,
-  "projectFilePath": "/Users/michalpapinski/Desktop/aws_sample/aws_sample/FXbox.Cloud.Gateway.Dashboard/FXbox.Cloud.Gateway.Dashboard.csproj",
+  "projectFilePath": "/Users/michalpapinski/Desktop/aws_sample/src/Cloud/Gateway/FXbox.Cloud.Gateway.Dashboard/FXbox.Cloud.Gateway.Dashboard.csproj",
   "expectedPackageFiles": [
     "/Users/michalpapinski/.nuget/packages/fluentvalidation/9.3.0/fluentvalidation.9.3.0.nupkg.sha512",
     "/Users/michalpapinski/.nuget/packages/microsoft.aspnetcore.authentication.jwtbearer/5.0.1/microsoft.aspnetcore.authentication.jwtbearer.5.0.1.nupkg.sha512",

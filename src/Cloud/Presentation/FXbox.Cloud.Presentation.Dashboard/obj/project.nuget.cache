@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "uvNHTeltcRxFbQtWEENK8sbjPw0I47dbNiwWgHKgohcKFewnncf7tm8qRCb/aMstLVLKNsa10MUUjlqKQRB5bg==",
+  "dgSpecHash": "wNGvsVkHatPVGW4Xf9rTyNWXKZP/fdEHd0RA33HYhEt0/N5pdalWyUCPS9beevGwmBzGyUN4O2O+LLuyvpcOvw==",
   "success": true,
-  "projectFilePath": "/Users/michalpapinski/Desktop/aws_sample/aws_sample/FXbox.Cloud.Presentation.Dashboard/FXbox.Cloud.Presentation.Dashboard.csproj",
+  "projectFilePath": "/Users/michalpapinski/Desktop/aws_sample/src/Cloud/Presentation/FXbox.Cloud.Presentation.Dashboard/FXbox.Cloud.Presentation.Dashboard.csproj",
   "expectedPackageFiles": [
     "/Users/michalpapinski/.nuget/packages/microsoft.aspnetcore.authorization/5.0.1/microsoft.aspnetcore.authorization.5.0.1.nupkg.sha512",
     "/Users/michalpapinski/.nuget/packages/microsoft.aspnetcore.components/5.0.1/microsoft.aspnetcore.components.5.0.1.nupkg.sha512",

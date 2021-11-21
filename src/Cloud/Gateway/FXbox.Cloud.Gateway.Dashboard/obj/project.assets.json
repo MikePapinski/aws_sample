@@ -905,11 +905,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/michalpapinski/Desktop/aws_sample/aws_sample/FXbox.Cloud.Gateway.Dashboard/FXbox.Cloud.Gateway.Dashboard.csproj",
+      "projectUniqueName": "/Users/michalpapinski/Desktop/aws_sample/src/Cloud/Gateway/FXbox.Cloud.Gateway.Dashboard/FXbox.Cloud.Gateway.Dashboard.csproj",
       "projectName": "FXbox.Cloud.Gateway.Dashboard",
-      "projectPath": "/Users/michalpapinski/Desktop/aws_sample/aws_sample/FXbox.Cloud.Gateway.Dashboard/FXbox.Cloud.Gateway.Dashboard.csproj",
+      "projectPath": "/Users/michalpapinski/Desktop/aws_sample/src/Cloud/Gateway/FXbox.Cloud.Gateway.Dashboard/FXbox.Cloud.Gateway.Dashboard.csproj",
       "packagesPath": "/Users/michalpapinski/.nuget/packages/",
-      "outputPath": "/Users/michalpapinski/Desktop/aws_sample/aws_sample/FXbox.Cloud.Gateway.Dashboard/obj/",
+      "outputPath": "/Users/michalpapinski/Desktop/aws_sample/src/Cloud/Gateway/FXbox.Cloud.Gateway.Dashboard/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/michalpapinski/.nuget/NuGet/NuGet.Config"

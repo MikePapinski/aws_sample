@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "RXrWt2nLU1jr5Zpil2KSUclzoMFkhVoZwovStxqlF0VTBZeeT3pEpC4NHPkd6UMLt9U+e9V1P+IOrwkqp783Pw==",
+  "dgSpecHash": "cpOnZbLw5qYOC7lgn7pziLDNHhM425VtxdqQyEmt8KCysuBQ9Pyy59vFJ5VtD9V7gu7Bbt2BQg7xhD+uKy/HOQ==",
   "success": true,
-  "projectFilePath": "/Users/michalpapinski/Desktop/aws_sample/aws_sample/FXbox.Cloud.Services.Agents/FXbox.Cloud.Services.Agents.csproj",
+  "projectFilePath": "/Users/michalpapinski/Desktop/aws_sample/src/Cloud/Services/FXbox.Cloud.Services.Agents/FXbox.Cloud.Services.Agents.csproj",
   "expectedPackageFiles": [
     "/Users/michalpapinski/.nuget/packages/microsoft.aspnetcore.authentication.jwtbearer/5.0.1/microsoft.aspnetcore.authentication.jwtbearer.5.0.1.nupkg.sha512",
     "/Users/michalpapinski/.nuget/packages/microsoft.aspnetcore.authentication.openidconnect/5.0.1/microsoft.aspnetcore.authentication.openidconnect.5.0.1.nupkg.sha512",

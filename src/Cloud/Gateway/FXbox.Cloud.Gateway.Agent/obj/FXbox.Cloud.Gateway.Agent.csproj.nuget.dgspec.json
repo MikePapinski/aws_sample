@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/michalpapinski/Desktop/aws_sample/aws_sample/FXbox.Cloud.Gateway.Agent/FXbox.Cloud.Gateway.Agent.csproj": {}
+    "/Users/michalpapinski/Desktop/aws_sample/src/Cloud/Gateway/FXbox.Cloud.Gateway.Agent/FXbox.Cloud.Gateway.Agent.csproj": {}
   },
   "projects": {
-    "/Users/michalpapinski/Desktop/aws_sample/aws_sample/FXbox.Cloud.Gateway.Agent/FXbox.Cloud.Gateway.Agent.csproj": {
+    "/Users/michalpapinski/Desktop/aws_sample/src/Cloud/Gateway/FXbox.Cloud.Gateway.Agent/FXbox.Cloud.Gateway.Agent.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/michalpapinski/Desktop/aws_sample/aws_sample/FXbox.Cloud.Gateway.Agent/FXbox.Cloud.Gateway.Agent.csproj",
+        "projectUniqueName": "/Users/michalpapinski/Desktop/aws_sample/src/Cloud/Gateway/FXbox.Cloud.Gateway.Agent/FXbox.Cloud.Gateway.Agent.csproj",
         "projectName": "FXbox.Cloud.Gateway.Agent",
-        "projectPath": "/Users/michalpapinski/Desktop/aws_sample/aws_sample/FXbox.Cloud.Gateway.Agent/FXbox.Cloud.Gateway.Agent.csproj",
+        "projectPath": "/Users/michalpapinski/Desktop/aws_sample/src/Cloud/Gateway/FXbox.Cloud.Gateway.Agent/FXbox.Cloud.Gateway.Agent.csproj",
         "packagesPath": "/Users/michalpapinski/.nuget/packages/",
-        "outputPath": "/Users/michalpapinski/Desktop/aws_sample/aws_sample/FXbox.Cloud.Gateway.Agent/obj/",
+        "outputPath": "/Users/michalpapinski/Desktop/aws_sample/src/Cloud/Gateway/FXbox.Cloud.Gateway.Agent/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/michalpapinski/.nuget/NuGet/NuGet.Config"

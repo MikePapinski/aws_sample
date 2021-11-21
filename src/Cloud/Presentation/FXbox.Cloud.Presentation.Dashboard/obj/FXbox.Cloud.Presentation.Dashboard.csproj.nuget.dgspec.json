@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/michalpapinski/Desktop/aws_sample/aws_sample/FXbox.Cloud.Presentation.Dashboard/FXbox.Cloud.Presentation.Dashboard.csproj": {}
+    "/Users/michalpapinski/Desktop/aws_sample/src/Cloud/Presentation/FXbox.Cloud.Presentation.Dashboard/FXbox.Cloud.Presentation.Dashboard.csproj": {}
   },
   "projects": {
-    "/Users/michalpapinski/Desktop/aws_sample/aws_sample/FXbox.Cloud.Presentation.Dashboard/FXbox.Cloud.Presentation.Dashboard.csproj": {
+    "/Users/michalpapinski/Desktop/aws_sample/src/Cloud/Presentation/FXbox.Cloud.Presentation.Dashboard/FXbox.Cloud.Presentation.Dashboard.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/michalpapinski/Desktop/aws_sample/aws_sample/FXbox.Cloud.Presentation.Dashboard/FXbox.Cloud.Presentation.Dashboard.csproj",
+        "projectUniqueName": "/Users/michalpapinski/Desktop/aws_sample/src/Cloud/Presentation/FXbox.Cloud.Presentation.Dashboard/FXbox.Cloud.Presentation.Dashboard.csproj",
         "projectName": "FXbox.Cloud.Presentation.Dashboard",
-        "projectPath": "/Users/michalpapinski/Desktop/aws_sample/aws_sample/FXbox.Cloud.Presentation.Dashboard/FXbox.Cloud.Presentation.Dashboard.csproj",
+        "projectPath": "/Users/michalpapinski/Desktop/aws_sample/src/Cloud/Presentation/FXbox.Cloud.Presentation.Dashboard/FXbox.Cloud.Presentation.Dashboard.csproj",
         "packagesPath": "/Users/michalpapinski/.nuget/packages/",
-        "outputPath": "/Users/michalpapinski/Desktop/aws_sample/aws_sample/FXbox.Cloud.Presentation.Dashboard/obj/",
+        "outputPath": "/Users/michalpapinski/Desktop/aws_sample/src/Cloud/Presentation/FXbox.Cloud.Presentation.Dashboard/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/michalpapinski/.nuget/NuGet/NuGet.Config"

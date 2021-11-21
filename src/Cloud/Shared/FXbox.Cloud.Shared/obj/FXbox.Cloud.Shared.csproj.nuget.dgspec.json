@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/michalpapinski/Desktop/aws_sample/aws_sample/FXbox.Cloud.Shared/FXbox.Cloud.Shared.csproj": {}
+    "/Users/michalpapinski/Desktop/aws_sample/src/Cloud/Shared/FXbox.Cloud.Shared/FXbox.Cloud.Shared.csproj": {}
   },
   "projects": {
-    "/Users/michalpapinski/Desktop/aws_sample/aws_sample/FXbox.Cloud.Shared/FXbox.Cloud.Shared.csproj": {
+    "/Users/michalpapinski/Desktop/aws_sample/src/Cloud/Shared/FXbox.Cloud.Shared/FXbox.Cloud.Shared.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/michalpapinski/Desktop/aws_sample/aws_sample/FXbox.Cloud.Shared/FXbox.Cloud.Shared.csproj",
+        "projectUniqueName": "/Users/michalpapinski/Desktop/aws_sample/src/Cloud/Shared/FXbox.Cloud.Shared/FXbox.Cloud.Shared.csproj",
         "projectName": "FXbox.Cloud.Shared",
-        "projectPath": "/Users/michalpapinski/Desktop/aws_sample/aws_sample/FXbox.Cloud.Shared/FXbox.Cloud.Shared.csproj",
+        "projectPath": "/Users/michalpapinski/Desktop/aws_sample/src/Cloud/Shared/FXbox.Cloud.Shared/FXbox.Cloud.Shared.csproj",
         "packagesPath": "/Users/michalpapinski/.nuget/packages/",
-        "outputPath": "/Users/michalpapinski/Desktop/aws_sample/aws_sample/FXbox.Cloud.Shared/obj/",
+        "outputPath": "/Users/michalpapinski/Desktop/aws_sample/src/Cloud/Shared/FXbox.Cloud.Shared/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/michalpapinski/.nuget/NuGet/NuGet.Config"

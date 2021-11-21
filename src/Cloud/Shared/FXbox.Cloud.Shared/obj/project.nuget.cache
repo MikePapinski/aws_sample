@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "L8ajud1PdqfnWSq8l07m7V40ZI6TS0m8DfIukxc2mVGJZnIyf/XcPLF1Oi1V/BUPlHxZfwyXPBjkJUInsXBWRA==",
+  "dgSpecHash": "DcCShZ3A4flMg8UQzT5vgAweWrkSJHs+jsx64Xog/a0ZTV7lJ2lXSBdBsITqqjDSHoHhfFF7xhbR7OT/b9OT+Q==",
   "success": true,
-  "projectFilePath": "/Users/michalpapinski/Desktop/aws_sample/aws_sample/FXbox.Cloud.Shared/FXbox.Cloud.Shared.csproj",
+  "projectFilePath": "/Users/michalpapinski/Desktop/aws_sample/src/Cloud/Shared/FXbox.Cloud.Shared/FXbox.Cloud.Shared.csproj",
   "expectedPackageFiles": [
     "/Users/michalpapinski/.nuget/packages/dnsclient/1.4.0/dnsclient.1.4.0.nupkg.sha512",
     "/Users/michalpapinski/.nuget/packages/microsoft.aspnetcore.authentication.jwtbearer/5.0.12/microsoft.aspnetcore.authentication.jwtbearer.5.0.12.nupkg.sha512",

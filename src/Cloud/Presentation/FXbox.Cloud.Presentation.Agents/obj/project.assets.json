@@ -1149,11 +1149,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/michalpapinski/Desktop/aws_sample/aws_sample/FXbox.Cloud.Presentation.Agents/FXbox.Cloud.Presentation.Agents.csproj",
+      "projectUniqueName": "/Users/michalpapinski/Desktop/aws_sample/src/Cloud/Presentation/FXbox.Cloud.Presentation.Agents/FXbox.Cloud.Presentation.Agents.csproj",
       "projectName": "FXbox.Cloud.Presentation.Agents",
-      "projectPath": "/Users/michalpapinski/Desktop/aws_sample/aws_sample/FXbox.Cloud.Presentation.Agents/FXbox.Cloud.Presentation.Agents.csproj",
+      "projectPath": "/Users/michalpapinski/Desktop/aws_sample/src/Cloud/Presentation/FXbox.Cloud.Presentation.Agents/FXbox.Cloud.Presentation.Agents.csproj",
       "packagesPath": "/Users/michalpapinski/.nuget/packages/",
-      "outputPath": "/Users/michalpapinski/Desktop/aws_sample/aws_sample/FXbox.Cloud.Presentation.Agents/obj/",
+      "outputPath": "/Users/michalpapinski/Desktop/aws_sample/src/Cloud/Presentation/FXbox.Cloud.Presentation.Agents/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/michalpapinski/.nuget/NuGet/NuGet.Config"
