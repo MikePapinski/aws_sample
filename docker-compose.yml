@@ -28,8 +28,6 @@ services:
       ports:
           - 8001:80
       container_name: presentation.dashboard
-      restart: on-failure
-      hostname: Presentation.Dashboard
       build:
         context: .
         dockerfile: src/Cloud/Presentation/FXbox.Cloud.Presentation.Dashboard/Dockerfile
@@ -38,8 +36,6 @@ services:
       ports:
           - 8002:80
       container_name: presentation.agents
-      restart: on-failure
-      hostname: Presentation.Agents
       build:
         context: .
         dockerfile: src/Cloud/Presentation/FXbox.Cloud.Presentation.Agents/Dockerfile
@@ -49,8 +45,6 @@ services:
         - 8003:80
         - 8004:443
     container_name: gateway.agent
-    restart: on-failure
-    hostname: Gateway.Agent
     build:
       context: .
       dockerfile: src/Cloud/Gateway/FXbox.Cloud.Gateway.Agent/Dockerfile
@@ -60,8 +54,6 @@ services:
         - 8005:80
         - 8006:443
     container_name: gateway.dashboard
-    restart: on-failure
-    hostname: Gateway.Dashboard
     build:
       context: .
       dockerfile: src/Cloud/Gateway/FXbox.Cloud.Gateway.Dashboard/Dockerfile
@@ -71,8 +63,6 @@ services:
         - 8007:80
         - 8008:443
     container_name: services.agents
-    restart: on-failure
-    hostname: Services.Agents
     build:
       context: .
       dockerfile: src/Cloud/Services/FXbox.Cloud.Services.Agents/Dockerfile
@@ -82,8 +72,6 @@ services:
         - 8009:80
         - 8010:443
     container_name: services.configuration
-    restart: on-failure
-    hostname: Services.Configuration
     build:
       context: .
       dockerfile: src/Cloud/Services/FXbox.Cloud.Services.Configuration/Dockerfile
@@ -93,8 +81,6 @@ services:
         - 8011:80
         - 8012:443
     container_name: services.identity
-    restart: on-failure
-    hostname: Services.Identity
     build:
       context: .
       dockerfile: src/Cloud/Services/FXbox.Cloud.Services.Identity/Dockerfile

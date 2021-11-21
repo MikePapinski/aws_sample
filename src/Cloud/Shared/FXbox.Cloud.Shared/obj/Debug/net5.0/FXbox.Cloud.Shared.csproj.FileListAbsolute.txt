@@ -1,0 +1,12 @@
+/Users/michalpapinski/Desktop/aws_sample/src/Cloud/Shared/FXbox.Cloud.Shared/bin/Debug/net5.0/FXbox.Cloud.Shared.deps.json
+/Users/michalpapinski/Desktop/aws_sample/src/Cloud/Shared/FXbox.Cloud.Shared/bin/Debug/net5.0/FXbox.Cloud.Shared.dll
+/Users/michalpapinski/Desktop/aws_sample/src/Cloud/Shared/FXbox.Cloud.Shared/bin/Debug/net5.0/ref/FXbox.Cloud.Shared.dll
+/Users/michalpapinski/Desktop/aws_sample/src/Cloud/Shared/FXbox.Cloud.Shared/bin/Debug/net5.0/FXbox.Cloud.Shared.pdb
+/Users/michalpapinski/Desktop/aws_sample/src/Cloud/Shared/FXbox.Cloud.Shared/obj/Debug/net5.0/FXbox.Cloud.Shared.csprojAssemblyReference.cache
+/Users/michalpapinski/Desktop/aws_sample/src/Cloud/Shared/FXbox.Cloud.Shared/obj/Debug/net5.0/FXbox.Cloud.Shared.GeneratedMSBuildEditorConfig.editorconfig
+/Users/michalpapinski/Desktop/aws_sample/src/Cloud/Shared/FXbox.Cloud.Shared/obj/Debug/net5.0/FXbox.Cloud.Shared.AssemblyInfoInputs.cache
+/Users/michalpapinski/Desktop/aws_sample/src/Cloud/Shared/FXbox.Cloud.Shared/obj/Debug/net5.0/FXbox.Cloud.Shared.AssemblyInfo.cs
+/Users/michalpapinski/Desktop/aws_sample/src/Cloud/Shared/FXbox.Cloud.Shared/obj/Debug/net5.0/FXbox.Cloud.Shared.csproj.CoreCompileInputs.cache
+/Users/michalpapinski/Desktop/aws_sample/src/Cloud/Shared/FXbox.Cloud.Shared/obj/Debug/net5.0/FXbox.Cloud.Shared.dll
+/Users/michalpapinski/Desktop/aws_sample/src/Cloud/Shared/FXbox.Cloud.Shared/obj/Debug/net5.0/ref/FXbox.Cloud.Shared.dll
+/Users/michalpapinski/Desktop/aws_sample/src/Cloud/Shared/FXbox.Cloud.Shared/obj/Debug/net5.0/FXbox.Cloud.Shared.pdb

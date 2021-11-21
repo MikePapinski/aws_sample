@@ -1,12 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "miXJ5VuzSkA/uDN1J6E44mk3lmwpNFolTuj7BCgV5xITLjtUBjBA9yL2cdRS0OJwaQ65gQUqu3Pc3zYM9E3Uxw==",
+  "dgSpecHash": "DvbANPJeVoj2fcPnDShB3a+pDdvK8bwwQ+bmQJpgcV/Gn7xeHEzTNUnOK6neiQ60cWEYXDafj2p4E3cjt8nPmw==",
   "success": true,
   "projectFilePath": "/Users/michalpapinski/Desktop/aws_sample/src/Cloud/Services/FXbox.Cloud.Services.Identity/FXbox.Cloud.Services.Identity.csproj",
   "expectedPackageFiles": [
     "/Users/michalpapinski/.nuget/packages/dnsclient/1.4.0/dnsclient.1.4.0.nupkg.sha512",
-    "/Users/michalpapinski/.nuget/packages/microsoft.aspnetcore.authentication.jwtbearer/5.0.1/microsoft.aspnetcore.authentication.jwtbearer.5.0.1.nupkg.sha512",
-    "/Users/michalpapinski/.nuget/packages/microsoft.aspnetcore.authentication.openidconnect/5.0.1/microsoft.aspnetcore.authentication.openidconnect.5.0.1.nupkg.sha512",
+    "/Users/michalpapinski/.nuget/packages/microsoft.aspnetcore.authentication.jwtbearer/5.0.12/microsoft.aspnetcore.authentication.jwtbearer.5.0.12.nupkg.sha512",
     "/Users/michalpapinski/.nuget/packages/microsoft.csharp/4.5.0/microsoft.csharp.4.5.0.nupkg.sha512",
     "/Users/michalpapinski/.nuget/packages/microsoft.extensions.apidescription.server/3.0.0/microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
     "/Users/michalpapinski/.nuget/packages/microsoft.identitymodel.jsonwebtokens/6.7.1/microsoft.identitymodel.jsonwebtokens.6.7.1.nupkg.sha512",

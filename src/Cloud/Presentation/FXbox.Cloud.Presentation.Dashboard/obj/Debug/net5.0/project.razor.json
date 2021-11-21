@@ -1,5 +1,5 @@
 {
-  "FilePath": "/Users/michalpapinski/Desktop/aws_sample/aws_sample/FXbox.Cloud.Presentation.Dashboard/FXbox.Cloud.Presentation.Dashboard.csproj",
+  "FilePath": "/Users/michalpapinski/Desktop/aws_sample/src/Cloud/Presentation/FXbox.Cloud.Presentation.Dashboard/FXbox.Cloud.Presentation.Dashboard.csproj",
   "Configuration": {
     "ConfigurationName": "Default",
     "LanguageVersion": "5.0",
@@ -8,35 +8,35 @@
   "ProjectWorkspaceState": {
     "TagHelpers": [
       {
-        "HashCode": 247995177,
+        "HashCode": -696456142,
         "Kind": "Components.Component",
-        "Name": "FXbox.Cloud.Presentation.Dashboard.App",
+        "Name": "FXbox.Cloud.Presentation.Dashboard.Pages.Index",
         "AssemblyName": "FXbox.Cloud.Presentation.Dashboard",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "App"
+            "TagName": "Index"
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "FXbox.Cloud.Presentation.Dashboard.App"
+          "Common.TypeName": "FXbox.Cloud.Presentation.Dashboard.Pages.Index"
         }
       },
       {
-        "HashCode": -1628853471,
+        "HashCode": 526847608,
         "Kind": "Components.Component",
-        "Name": "FXbox.Cloud.Presentation.Dashboard.App",
+        "Name": "FXbox.Cloud.Presentation.Dashboard.Pages.Index",
         "AssemblyName": "FXbox.Cloud.Presentation.Dashboard",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "FXbox.Cloud.Presentation.Dashboard.App"
+            "TagName": "FXbox.Cloud.Presentation.Dashboard.Pages.Index"
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "FXbox.Cloud.Presentation.Dashboard.App",
+          "Common.TypeName": "FXbox.Cloud.Presentation.Dashboard.Pages.Index",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
@@ -103,92 +103,6 @@
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
           "Common.TypeName": "FXbox.Cloud.Presentation.Dashboard.Pages.FetchData",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
-        "HashCode": -696456142,
-        "Kind": "Components.Component",
-        "Name": "FXbox.Cloud.Presentation.Dashboard.Pages.Index",
-        "AssemblyName": "FXbox.Cloud.Presentation.Dashboard",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "Index"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "FXbox.Cloud.Presentation.Dashboard.Pages.Index"
-        }
-      },
-      {
-        "HashCode": 526847608,
-        "Kind": "Components.Component",
-        "Name": "FXbox.Cloud.Presentation.Dashboard.Pages.Index",
-        "AssemblyName": "FXbox.Cloud.Presentation.Dashboard",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "FXbox.Cloud.Presentation.Dashboard.Pages.Index"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "FXbox.Cloud.Presentation.Dashboard.Pages.Index",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
-        "HashCode": 847410861,
-        "Kind": "Components.Component",
-        "Name": "FXbox.Cloud.Presentation.Dashboard.Shared.SurveyPrompt",
-        "AssemblyName": "FXbox.Cloud.Presentation.Dashboard",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "SurveyPrompt"
-          }
-        ],
-        "BoundAttributes": [
-          {
-            "Kind": "Components.Component",
-            "Name": "Title",
-            "TypeName": "System.String",
-            "Metadata": {
-              "Common.PropertyName": "Title"
-            }
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "FXbox.Cloud.Presentation.Dashboard.Shared.SurveyPrompt"
-        }
-      },
-      {
-        "HashCode": -1953791531,
-        "Kind": "Components.Component",
-        "Name": "FXbox.Cloud.Presentation.Dashboard.Shared.SurveyPrompt",
-        "AssemblyName": "FXbox.Cloud.Presentation.Dashboard",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "FXbox.Cloud.Presentation.Dashboard.Shared.SurveyPrompt"
-          }
-        ],
-        "BoundAttributes": [
-          {
-            "Kind": "Components.Component",
-            "Name": "Title",
-            "TypeName": "System.String",
-            "Metadata": {
-              "Common.PropertyName": "Title"
-            }
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "FXbox.Cloud.Presentation.Dashboard.Shared.SurveyPrompt",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
@@ -289,6 +203,59 @@
         }
       },
       {
+        "HashCode": 847410861,
+        "Kind": "Components.Component",
+        "Name": "FXbox.Cloud.Presentation.Dashboard.Shared.SurveyPrompt",
+        "AssemblyName": "FXbox.Cloud.Presentation.Dashboard",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "SurveyPrompt"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "Title",
+            "TypeName": "System.String",
+            "Metadata": {
+              "Common.PropertyName": "Title"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "FXbox.Cloud.Presentation.Dashboard.Shared.SurveyPrompt"
+        }
+      },
+      {
+        "HashCode": -1953791531,
+        "Kind": "Components.Component",
+        "Name": "FXbox.Cloud.Presentation.Dashboard.Shared.SurveyPrompt",
+        "AssemblyName": "FXbox.Cloud.Presentation.Dashboard",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "FXbox.Cloud.Presentation.Dashboard.Shared.SurveyPrompt"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "Title",
+            "TypeName": "System.String",
+            "Metadata": {
+              "Common.PropertyName": "Title"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "FXbox.Cloud.Presentation.Dashboard.Shared.SurveyPrompt",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
         "HashCode": -671799322,
         "Kind": "Components.Component",
         "Name": "FXbox.Cloud.Presentation.Dashboard.Shared.NavMenu",
@@ -318,6 +285,39 @@
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
           "Common.TypeName": "FXbox.Cloud.Presentation.Dashboard.Shared.NavMenu",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": 247995177,
+        "Kind": "Components.Component",
+        "Name": "FXbox.Cloud.Presentation.Dashboard.App",
+        "AssemblyName": "FXbox.Cloud.Presentation.Dashboard",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "App"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "FXbox.Cloud.Presentation.Dashboard.App"
+        }
+      },
+      {
+        "HashCode": -1628853471,
+        "Kind": "Components.Component",
+        "Name": "FXbox.Cloud.Presentation.Dashboard.App",
+        "AssemblyName": "FXbox.Cloud.Presentation.Dashboard",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "FXbox.Cloud.Presentation.Dashboard.App"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "FXbox.Cloud.Presentation.Dashboard.App",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
@@ -13009,43 +13009,43 @@
   "RootNamespace": "FXbox.Cloud.Presentation.Dashboard",
   "Documents": [
     {
-      "FilePath": "/Users/michalpapinski/Desktop/aws_sample/aws_sample/FXbox.Cloud.Presentation.Dashboard/Pages/Index.razor",
+      "FilePath": "/Users/michalpapinski/Desktop/aws_sample/src/Cloud/Presentation/FXbox.Cloud.Presentation.Dashboard/Pages/Index.razor",
       "TargetPath": "Pages\\Index.razor",
       "FileKind": "component"
     },
     {
-      "FilePath": "/Users/michalpapinski/Desktop/aws_sample/aws_sample/FXbox.Cloud.Presentation.Dashboard/Pages/Counter.razor",
+      "FilePath": "/Users/michalpapinski/Desktop/aws_sample/src/Cloud/Presentation/FXbox.Cloud.Presentation.Dashboard/Pages/Counter.razor",
       "TargetPath": "Pages\\Counter.razor",
       "FileKind": "component"
     },
     {
-      "FilePath": "/Users/michalpapinski/Desktop/aws_sample/aws_sample/FXbox.Cloud.Presentation.Dashboard/Shared/MainLayout.razor",
+      "FilePath": "/Users/michalpapinski/Desktop/aws_sample/src/Cloud/Presentation/FXbox.Cloud.Presentation.Dashboard/Shared/MainLayout.razor",
       "TargetPath": "Shared\\MainLayout.razor",
       "FileKind": "component"
     },
     {
-      "FilePath": "/Users/michalpapinski/Desktop/aws_sample/aws_sample/FXbox.Cloud.Presentation.Dashboard/Shared/NavMenu.razor",
+      "FilePath": "/Users/michalpapinski/Desktop/aws_sample/src/Cloud/Presentation/FXbox.Cloud.Presentation.Dashboard/Shared/SurveyPrompt.razor",
+      "TargetPath": "Shared\\SurveyPrompt.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "/Users/michalpapinski/Desktop/aws_sample/src/Cloud/Presentation/FXbox.Cloud.Presentation.Dashboard/Shared/NavMenu.razor",
       "TargetPath": "Shared\\NavMenu.razor",
       "FileKind": "component"
     },
     {
-      "FilePath": "/Users/michalpapinski/Desktop/aws_sample/aws_sample/FXbox.Cloud.Presentation.Dashboard/Pages/FetchData.razor",
-      "TargetPath": "Pages\\FetchData.razor",
-      "FileKind": "component"
-    },
-    {
-      "FilePath": "/Users/michalpapinski/Desktop/aws_sample/aws_sample/FXbox.Cloud.Presentation.Dashboard/_Imports.razor",
+      "FilePath": "/Users/michalpapinski/Desktop/aws_sample/src/Cloud/Presentation/FXbox.Cloud.Presentation.Dashboard/_Imports.razor",
       "TargetPath": "_Imports.razor",
       "FileKind": "componentImport"
     },
     {
-      "FilePath": "/Users/michalpapinski/Desktop/aws_sample/aws_sample/FXbox.Cloud.Presentation.Dashboard/App.razor",
+      "FilePath": "/Users/michalpapinski/Desktop/aws_sample/src/Cloud/Presentation/FXbox.Cloud.Presentation.Dashboard/App.razor",
       "TargetPath": "App.razor",
       "FileKind": "component"
     },
     {
-      "FilePath": "/Users/michalpapinski/Desktop/aws_sample/aws_sample/FXbox.Cloud.Presentation.Dashboard/Shared/SurveyPrompt.razor",
-      "TargetPath": "Shared\\SurveyPrompt.razor",
+      "FilePath": "/Users/michalpapinski/Desktop/aws_sample/src/Cloud/Presentation/FXbox.Cloud.Presentation.Dashboard/Pages/FetchData.razor",
+      "TargetPath": "Pages\\FetchData.razor",
       "FileKind": "component"
     }
   ],
