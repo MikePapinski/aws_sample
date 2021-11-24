@@ -1,0 +1,58 @@
+{
+  "Routes": [
+    {
+      "DownstreamPathTemplate": "/hub/agent/control/{everything}",
+      "DownstreamScheme": "ws",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "services-agent",
+          "Port": 5021
+        }
+      ],
+      "UpstreamPathTemplate": "/hub/agent/control/{everything}",
+      "UpstreamHttpMethod": [ "GET", "POST", "PUT", "DELETE", "OPTIONS" ]
+    },
+    {
+      "DownstreamPathTemplate": "/{everything}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "services-configuration",
+          "Port": 5011
+        }
+      ],
+      "UpstreamPathTemplate": "/configuration/{everything}",
+      "UpstreamHttpMethod": [ "GET" ],
+      "SwaggerKey": "configuration"
+    },
+    {
+      "DownstreamPathTemplate": "/{everything}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "services-agent",
+          "Port": 5021
+        }
+      ],
+      "UpstreamPathTemplate": "/agent/{everything}",
+      "UpstreamHttpMethod": [ "GET" ],
+      "SwaggerKey": "agent"
+    },
+    {
+      "DownstreamPathTemplate": "/{everything}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "services-identity",
+          "Port": 5031
+        }
+      ],
+      "UpstreamPathTemplate": "/identity/{everything}",
+      "UpstreamHttpMethod": [ "GET" ],
+      "SwaggerKey": "identity"
+    }
+  ],
+    "GlobalConfiguration": {
+      "BaseUrl": "http://gateway-agent:5001"
+    }
+  }

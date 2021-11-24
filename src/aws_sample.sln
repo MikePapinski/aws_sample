@@ -2,11 +2,7 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FXbox.Cloud.Presentation.Dashboard", "Cloud\Presentation\FXbox.Cloud.Presentation.Dashboard\FXbox.Cloud.Presentation.Dashboard.csproj", "{E85E8F61-AEF9-4B7F-A620-9EC74FF7BC1B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FXbox.Cloud.Presentation.Agents", "Cloud\Presentation\FXbox.Cloud.Presentation.Agents\FXbox.Cloud.Presentation.Agents.csproj", "{CF8AE6B2-0CEA-4459-BBA4-E310D257DE3C}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FXbox.Cloud.Shared", "Cloud\Shared\FXbox.Cloud.Shared\FXbox.Cloud.Shared.csproj", "{E7BEA8D7-6F38-45C5-90D5-5462ACCC6250}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FXbox.Cloud.Services.Identity", "Cloud\Services\FXbox.Cloud.Services.Identity\FXbox.Cloud.Services.Identity.csproj", "{9F031D92-B322-41A2-8455-F210E52ADC30}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FXbox.Cloud.Services.Configuration", "Cloud\Services\FXbox.Cloud.Services.Configuration\FXbox.Cloud.Services.Configuration.csproj", "{0067F2D4-ACD4-4B4D-953F-54D7DA89CDA5}"
 EndProject
@@ -14,7 +10,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FXbox.Cloud.Services.Agents
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FXbox.Cloud.Gateway.Dashboard", "Cloud\Gateway\FXbox.Cloud.Gateway.Dashboard\FXbox.Cloud.Gateway.Dashboard.csproj", "{2ECCC06A-010C-4E99-9447-2A5BA4B1E263}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FXbox.Cloud.Gateway.Agent", "Cloud\Gateway\FXbox.Cloud.Gateway.Agent\FXbox.Cloud.Gateway.Agent.csproj", "{88082BD3-B538-4B5A-B724-772F263CCC93}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FXbox.Cloud.Gateway.Agent", "Cloud\Gateway\FXbox.Cloud.Gateway.Agent\FXbox.Cloud.Gateway.Agent.csproj", "{A624F974-C8EA-4B50-B921-48B50A761BBE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FXbox.Cloud.Auth.Identity", "Cloud\Auth\FXbox.Cloud.Auth.Identity\FXbox.Cloud.Auth.Identity.csproj", "{7AFFF817-FA7F-4818-B5AE-80107809BEE6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FXbox.Cloud.Presentation.Agent", "Cloud\Presentation\FXbox.Cloud.Presentation.Agent\FXbox.Cloud.Presentation.Agent.csproj", "{E69B94BD-D1D9-434C-9A05-F428760D996D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -26,18 +26,10 @@ Global
 		{E85E8F61-AEF9-4B7F-A620-9EC74FF7BC1B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E85E8F61-AEF9-4B7F-A620-9EC74FF7BC1B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E85E8F61-AEF9-4B7F-A620-9EC74FF7BC1B}.Release|Any CPU.Build.0 = Release|Any CPU
-		{CF8AE6B2-0CEA-4459-BBA4-E310D257DE3C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{CF8AE6B2-0CEA-4459-BBA4-E310D257DE3C}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{CF8AE6B2-0CEA-4459-BBA4-E310D257DE3C}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{CF8AE6B2-0CEA-4459-BBA4-E310D257DE3C}.Release|Any CPU.Build.0 = Release|Any CPU
 		{E7BEA8D7-6F38-45C5-90D5-5462ACCC6250}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{E7BEA8D7-6F38-45C5-90D5-5462ACCC6250}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E7BEA8D7-6F38-45C5-90D5-5462ACCC6250}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E7BEA8D7-6F38-45C5-90D5-5462ACCC6250}.Release|Any CPU.Build.0 = Release|Any CPU
-		{9F031D92-B322-41A2-8455-F210E52ADC30}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{9F031D92-B322-41A2-8455-F210E52ADC30}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{9F031D92-B322-41A2-8455-F210E52ADC30}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{9F031D92-B322-41A2-8455-F210E52ADC30}.Release|Any CPU.Build.0 = Release|Any CPU
 		{0067F2D4-ACD4-4B4D-953F-54D7DA89CDA5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{0067F2D4-ACD4-4B4D-953F-54D7DA89CDA5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0067F2D4-ACD4-4B4D-953F-54D7DA89CDA5}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -50,9 +42,17 @@ Global
 		{2ECCC06A-010C-4E99-9447-2A5BA4B1E263}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2ECCC06A-010C-4E99-9447-2A5BA4B1E263}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2ECCC06A-010C-4E99-9447-2A5BA4B1E263}.Release|Any CPU.Build.0 = Release|Any CPU
-		{88082BD3-B538-4B5A-B724-772F263CCC93}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{88082BD3-B538-4B5A-B724-772F263CCC93}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{88082BD3-B538-4B5A-B724-772F263CCC93}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{88082BD3-B538-4B5A-B724-772F263CCC93}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A624F974-C8EA-4B50-B921-48B50A761BBE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A624F974-C8EA-4B50-B921-48B50A761BBE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A624F974-C8EA-4B50-B921-48B50A761BBE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A624F974-C8EA-4B50-B921-48B50A761BBE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7AFFF817-FA7F-4818-B5AE-80107809BEE6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7AFFF817-FA7F-4818-B5AE-80107809BEE6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7AFFF817-FA7F-4818-B5AE-80107809BEE6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7AFFF817-FA7F-4818-B5AE-80107809BEE6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E69B94BD-D1D9-434C-9A05-F428760D996D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E69B94BD-D1D9-434C-9A05-F428760D996D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E69B94BD-D1D9-434C-9A05-F428760D996D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E69B94BD-D1D9-434C-9A05-F428760D996D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

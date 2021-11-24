@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "LUUOz9wptjG00p0WzEUDZvcGjTcrbX8oJBI5reLNwMmqvvZ63c6oGS5/+Yo7ZHxqAAtPf1EAJBf4Db8efKQmhA==",
+  "dgSpecHash": "W3Q+smA3BmOMSyLvxczU9RkWJtgMLDvxyLCyzMkRTbupT9Xt79pvy+DMVMoDCnVrcusazTdm99V0C+U6EOffbA==",
   "success": true,
   "projectFilePath": "/Users/michalpapinski/Desktop/aws_sample/src/Cloud/Services/FXbox.Cloud.Services.Configuration/FXbox.Cloud.Services.Configuration.csproj",
   "expectedPackageFiles": [
@@ -19,7 +19,8 @@
     "/Users/michalpapinski/.nuget/packages/swashbuckle.aspnetcore.swaggergen/5.6.3/swashbuckle.aspnetcore.swaggergen.5.6.3.nupkg.sha512",
     "/Users/michalpapinski/.nuget/packages/swashbuckle.aspnetcore.swaggerui/5.6.3/swashbuckle.aspnetcore.swaggerui.5.6.3.nupkg.sha512",
     "/Users/michalpapinski/.nuget/packages/system.identitymodel.tokens.jwt/6.7.1/system.identitymodel.tokens.jwt.6.7.1.nupkg.sha512",
-    "/Users/michalpapinski/.nuget/packages/system.security.cryptography.cng/4.5.0/system.security.cryptography.cng.4.5.0.nupkg.sha512"
+    "/Users/michalpapinski/.nuget/packages/system.security.cryptography.cng/4.5.0/system.security.cryptography.cng.4.5.0.nupkg.sha512",
+    "/Users/michalpapinski/.nuget/packages/microsoft.netcore.app.host.osx-x64/5.0.12/microsoft.netcore.app.host.osx-x64.5.0.12.nupkg.sha512"
   ],
   "logs": []
 }

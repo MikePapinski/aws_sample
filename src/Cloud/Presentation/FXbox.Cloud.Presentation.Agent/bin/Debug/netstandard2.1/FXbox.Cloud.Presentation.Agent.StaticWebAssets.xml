@@ -1,0 +1,4 @@
+﻿<StaticWebAssets Version="1.0">
+  <ContentRoot BasePath="_content/Microsoft.AspNetCore.Components.WebAssembly.Authentication" Path="/Users/michalpapinski/.nuget/packages/microsoft.aspnetcore.components.webassembly.authentication/3.2.0/build/../staticwebassets/" />
+  <ContentRoot BasePath="/" Path="/Users/michalpapinski/Desktop/aws_sample/src/Cloud/Presentation/FXbox.Cloud.Presentation.Agent/bin/Debug/netstandard2.1/wwwroot/" />
+</StaticWebAssets>

@@ -1,8 +1,10 @@
 ﻿FROM mcr.microsoft.com/dotnet/aspnet:5.0-buster-slim AS base
-ENV ASPNETCORE_ENVIRONMENT=Development
+
 WORKDIR /app
-EXPOSE 80
-EXPOSE 443
+LABEL VERSION="1.0"
+LABEL NAME="API Gateway"
+LABEL AUTOR="Leonardo Guilen <leonardoguilen1@gmail.com>"
+EXPOSE 5001
 
 FROM mcr.microsoft.com/dotnet/sdk:5.0-buster-slim AS build
 COPY "/src"  "/src"

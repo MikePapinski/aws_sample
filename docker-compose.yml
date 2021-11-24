@@ -2,86 +2,120 @@ version: '3.9'
 
 services:
 
-  mongodb:
-    image: mongo:3.6
+  # Identity Server 4 for login
+  auth-identity:
+    build:
+      context: .
+      dockerfile: src/Cloud/Auth/FXbox.Cloud.Auth.Identity/Dockerfile
+    container_name: auth-identity
+    restart: always
+    ports:
+        - "5003:5003"
+    networks:
+      - microservices-net
+
+  # Agent Blazor WASM Client
+  presentation-agent:
+    build:
+      context: .
+      dockerfile: src/Cloud/Presentation/FXbox.Cloud.Presentation.Agent/Dockerfile
+    container_name: presentation-agent
+    restart: always
+    ports:
+        - "8002:8002"
+    depends_on:
+      - gateway-agent
+
+  # Dashboard Blazor WASM Client
+  presentation-dashboard:
+    build:
+      context: .
+      dockerfile: src/Cloud/Presentation/FXbox.Cloud.Presentation.Dashboard/Dockerfile
+    container_name: presentation-dashboard
+    restart: always
+    ports:
+        - "8001:8001"
+    depends_on:
+      - gateway-dashboard
+
+  # API Gateway for Agent instances
+  gateway-agent:
+    build:
+      context: .
+      dockerfile: src/Cloud/Gateway/FXbox.Cloud.Gateway.Agent/Dockerfile
+    container_name: gateway-agent
+    restart: always
+    ports:
+        - "5001:5001"
+    depends_on:
+      - services-configuration
+      - services-agent
+    networks:
+      - microservices-net
+
+  # API Gateway for Dashboard users
+  gateway-dashboard:
+    build:
+      context: .
+      dockerfile: src/Cloud/Gateway/FXbox.Cloud.Gateway.Dashboard/Dockerfile
+    container_name: gateway-dashboard
+    restart: always
+    ports:
+        - "5000:5000"
+    depends_on:
+      - services-configuration
+      - services-agent
+    networks:
+      - microservices-net
+  
+  # Microservice to manage users configuration
+  services-configuration:
+    build:
+      context: .
+      dockerfile: src/Cloud/Services/FXbox.Cloud.Services.Configuration/Dockerfile
+    container_name: services-configuration
+    restart: always
+    ports:
+        - "5011:5011"
+    networks:
+      - microservices-net
+  
+  # Microservice to manage agents instances
+  services-agent:
+    build:
+      context: .
+      dockerfile: src/Cloud/Services/FXbox.Cloud.Services.Agents/Dockerfile
+    container_name: services-agent
+    restart: always
+    ports:
+        - "5021:5021"
+    networks:
+      - microservices-net
+
+  # MongoDB
+  mongo:
+    image: mongo
     restart: always
     environment:
-      - MONGO_INITDB_ROOT_USERNAME=root
-      - MONGO_INITDB_ROOT_PASSWORD=hello
-    volumes:
-      - ./mongo-init/:/docker-entrypoint-initdb.d/:ro
-    ports:
-      - 27017:27017
-      - 9229:9229
+      MONGO_INITDB_ROOT_USERNAME: root
+      MONGO_INITDB_ROOT_PASSWORD: example
+    networks:
+      - microservices-net
 
   mongo-express:
     image: mongo-express
     restart: always
     ports:
-      - 8111:8081
+      - 8081:8081
     environment:
-      - ME_CONFIG_MONGODB_SERVER=mongodb
-      - ME_CONFIG_MONGODB_ADMINUSERNAME=root
-      - ME_CONFIG_MONGODB_ADMINPASSWORD=hello
+      ME_CONFIG_MONGODB_ADMINUSERNAME: root
+      ME_CONFIG_MONGODB_ADMINPASSWORD: example
+      ME_CONFIG_MONGODB_URL: mongodb://root:example@mongo:27017/
+    networks:
+      - microservices-net
+    depends_on:
+      - mongo
 
-  presentation.dashboard:
-      ports:
-          - 8001:80
-      container_name: presentation.dashboard
-      build:
-        context: .
-        dockerfile: src/Cloud/Presentation/FXbox.Cloud.Presentation.Dashboard/Dockerfile
-  
-  presentation.agents:
-      ports:
-          - 8002:80
-      container_name: presentation.agents
-      build:
-        context: .
-        dockerfile: src/Cloud/Presentation/FXbox.Cloud.Presentation.Agents/Dockerfile
-  
-  gateway.agent:
-    ports:
-        - 8003:80
-        - 8004:443
-    container_name: gateway.agent
-    build:
-      context: .
-      dockerfile: src/Cloud/Gateway/FXbox.Cloud.Gateway.Agent/Dockerfile
-  
-  gateway.dashboard:
-    ports:
-        - 8005:80
-        - 8006:443
-    container_name: gateway.dashboard
-    build:
-      context: .
-      dockerfile: src/Cloud/Gateway/FXbox.Cloud.Gateway.Dashboard/Dockerfile
-
-  services.agents:
-    ports:
-        - 8007:80
-        - 8008:443
-    container_name: services.agents
-    build:
-      context: .
-      dockerfile: src/Cloud/Services/FXbox.Cloud.Services.Agents/Dockerfile
-
-  services.configuration:
-    ports:
-        - 8009:80
-        - 8010:443
-    container_name: services.configuration
-    build:
-      context: .
-      dockerfile: src/Cloud/Services/FXbox.Cloud.Services.Configuration/Dockerfile
-
-  services.identity:
-    ports:
-        - 8011:80
-        - 8012:443
-    container_name: services.identity
-    build:
-      context: .
-      dockerfile: src/Cloud/Services/FXbox.Cloud.Services.Identity/Dockerfile
-
+networks:
+  microservices-net:
+    name: microservices-net

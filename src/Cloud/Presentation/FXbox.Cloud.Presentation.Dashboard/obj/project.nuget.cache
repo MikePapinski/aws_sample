@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "wNGvsVkHatPVGW4Xf9rTyNWXKZP/fdEHd0RA33HYhEt0/N5pdalWyUCPS9beevGwmBzGyUN4O2O+LLuyvpcOvw==",
+  "dgSpecHash": "GIVK6I9RMqK3PmdrYUclAWrfInyAYLw6E0l1XkIJB8tAdlAPdj4hFGSdB0Y0Kf9+Sk7Od52CH7IUPKSF/Zg99A==",
   "success": true,
   "projectFilePath": "/Users/michalpapinski/Desktop/aws_sample/src/Cloud/Presentation/FXbox.Cloud.Presentation.Dashboard/FXbox.Cloud.Presentation.Dashboard.csproj",
   "expectedPackageFiles": [
@@ -30,7 +30,7 @@
     "/Users/michalpapinski/.nuget/packages/microsoft.jsinterop.webassembly/5.0.1/microsoft.jsinterop.webassembly.5.0.1.nupkg.sha512",
     "/Users/michalpapinski/.nuget/packages/system.io.pipelines/5.0.1/system.io.pipelines.5.0.1.nupkg.sha512",
     "/Users/michalpapinski/.nuget/packages/system.net.http.json/5.0.0/system.net.http.json.5.0.0.nupkg.sha512",
-    "/Users/michalpapinski/.nuget/packages/microsoft.netcore.app.runtime.browser-wasm/5.0.1/microsoft.netcore.app.runtime.browser-wasm.5.0.1.nupkg.sha512"
+    "/Users/michalpapinski/.nuget/packages/microsoft.netcore.app.runtime.browser-wasm/5.0.12/microsoft.netcore.app.runtime.browser-wasm.5.0.12.nupkg.sha512"
   ],
   "logs": []
 }

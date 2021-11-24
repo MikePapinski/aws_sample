@@ -1,7 +1,7 @@
 ﻿FROM mcr.microsoft.com/dotnet/aspnet:5.0-buster-slim AS base
-ENV ASPNETCORE_ENVIRONMENT=Development
+
 WORKDIR /app
-EXPOSE 80
+EXPOSE 8001
 
 FROM mcr.microsoft.com/dotnet/sdk:5.0-buster-slim AS build
 

@@ -8,6 +8,39 @@
   "ProjectWorkspaceState": {
     "TagHelpers": [
       {
+        "HashCode": 247995177,
+        "Kind": "Components.Component",
+        "Name": "FXbox.Cloud.Presentation.Dashboard.App",
+        "AssemblyName": "FXbox.Cloud.Presentation.Dashboard",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "App"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "FXbox.Cloud.Presentation.Dashboard.App"
+        }
+      },
+      {
+        "HashCode": -1628853471,
+        "Kind": "Components.Component",
+        "Name": "FXbox.Cloud.Presentation.Dashboard.App",
+        "AssemblyName": "FXbox.Cloud.Presentation.Dashboard",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "FXbox.Cloud.Presentation.Dashboard.App"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "FXbox.Cloud.Presentation.Dashboard.App",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
         "HashCode": -696456142,
         "Kind": "Components.Component",
         "Name": "FXbox.Cloud.Presentation.Dashboard.Pages.Index",
@@ -285,39 +318,6 @@
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
           "Common.TypeName": "FXbox.Cloud.Presentation.Dashboard.Shared.NavMenu",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
-        "HashCode": 247995177,
-        "Kind": "Components.Component",
-        "Name": "FXbox.Cloud.Presentation.Dashboard.App",
-        "AssemblyName": "FXbox.Cloud.Presentation.Dashboard",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "App"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "FXbox.Cloud.Presentation.Dashboard.App"
-        }
-      },
-      {
-        "HashCode": -1628853471,
-        "Kind": "Components.Component",
-        "Name": "FXbox.Cloud.Presentation.Dashboard.App",
-        "AssemblyName": "FXbox.Cloud.Presentation.Dashboard",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "FXbox.Cloud.Presentation.Dashboard.App"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "FXbox.Cloud.Presentation.Dashboard.App",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
