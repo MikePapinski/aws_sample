@@ -1,0 +1,50 @@
+@page "/logs"
+@using FXbox.Cloud.Presentation.BackOffice.Interfaces
+@inject ILogsService LogsService
+
+<h1>Infrastructure logs</h1>
+
+<p>Logs from every service across entire FXbox infrastructure stack. Every single action should be possible to trace here.</p>
+
+<br>
+
+<table class="table table-sm">
+  <thead>
+    <tr>
+      <th scope="col">Timestamp</th>
+      <th scope="col">Ip</th>
+      <th scope="col">Service</th>
+      <th scope="col">User</th>
+      <th scope="col">Message</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>231</td>
+      <td>32134</td>
+      <td>gdsga</td>
+      <td>gdsga</td>
+      <td>gdsga</td>
+    </tr>
+    <tr>
+      <td>231</td>
+            <td>32134</td>
+            <td>gdsga</td>
+            <td>gdsga</td>
+            <td>gdsga</td>
+    </tr>
+    <tr>
+      <td>231</td>
+            <td>32134</td>
+            <td>gdsga</td>
+            <td>gdsga</td>
+            <td>gdsga</td>
+    </tr>
+  </tbody>
+</table>
+
+
+
+@code {
+    
+}

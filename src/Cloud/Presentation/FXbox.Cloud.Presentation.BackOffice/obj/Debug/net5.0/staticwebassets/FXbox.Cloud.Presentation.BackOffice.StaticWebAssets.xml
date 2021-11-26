@@ -1,4 +1,5 @@
 ﻿<StaticWebAssets Version="1.0">
+  <ContentRoot BasePath="_content/Microsoft.AspNetCore.Components.WebAssembly.Authentication" Path="/Users/michalpapinski/.nuget/packages/microsoft.aspnetcore.components.webassembly.authentication/5.0.3/build/../staticwebassets/" />
   <ContentRoot BasePath="/" Path="/Users/michalpapinski/Desktop/aws_sample/src/Cloud/Presentation/FXbox.Cloud.Presentation.BackOffice/bin/Debug/net5.0/wwwroot/" />
   <ContentRoot BasePath="/" Path="/Users/michalpapinski/Desktop/aws_sample/src/Cloud/Presentation/FXbox.Cloud.Presentation.BackOffice/obj/Debug/net5.0/scopedcss/bundle/" />
 </StaticWebAssets>

@@ -1,0 +1,54 @@
+@page "/agents"
+@using FXbox.Cloud.Presentation.BackOffice.Interfaces
+@inject NavigationManager NavManager
+@inject IAgentsService AgentsService
+
+<h1>Agents</h1>
+
+<p>All active agent nodes and also all registered nodes.</p>
+
+<br>
+
+<table class="table table-bordered">
+  <thead>
+    <tr>
+      <th scope="col">Ip</th>
+      <th scope="col">User</th>
+      <th scope="col">Connection</th>
+      <th scope="col">Registration</th>
+      <th scope="col">Action</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>gegs</td>
+      <td>herhee3</td>
+      <td>shesh</td>
+      <td>ehshe</td>
+      <td><button class="btn btn-primary" @onclick="@(e => RedirectToAgent("127,128,52,23"))">Control</button></td>
+    </tr>
+    <tr>
+      <td>gegs</td>
+            <td>herhee3</td>
+            <td>shesh</td>
+      <td>ehshe</td>
+      <td><button class="btn btn-primary" >Control</button></td>
+    </tr>
+    <tr>
+      <td>gegs</td>
+            <td>herhee3</td>
+            <td>shesh</td>
+      <td>ehshe</td>
+      <td><button class="btn btn-primary" >Control</button></td>
+    </tr>
+  </tbody>
+</table>
+
+
+
+@code {
+  private void RedirectToAgent(string ip)
+  {
+    NavManager.NavigateTo($"/agent/{ip}");
+  }
+}

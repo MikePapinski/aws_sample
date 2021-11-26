@@ -9,9 +9,11 @@
     "assembly": {
       "Microsoft.AspNetCore.Authorization.dll": "sha256-hBmEudhpdeLXLU5KNzx5bBkI9o4ZurJu15U6afmGyIg=",
       "Microsoft.AspNetCore.Components.dll": "sha256-YYHd2lVuYwtRTYNBtWL5k+alBHjMQGBqMwwgixqG9Ak=",
+      "Microsoft.AspNetCore.Components.Authorization.dll": "sha256-hb1SQe2Ef8RkiTKrZV+eBPHy+raugQ0z7j+8p+xQkJQ=",
       "Microsoft.AspNetCore.Components.Forms.dll": "sha256-UCDJr7\/sSWmGNxe2PdesHLGuJ4DDhl80kt\/tIVZWHek=",
       "Microsoft.AspNetCore.Components.Web.dll": "sha256-3xdazV4ZzJeovsJfSuAf6fDNtYdN6s8\/Jb07Ad4ba14=",
       "Microsoft.AspNetCore.Components.WebAssembly.dll": "sha256-97KtZg0QVFDfIPBAh8dCa7c7uEsp4E6nZ4nQaVPUJio=",
+      "Microsoft.AspNetCore.Components.WebAssembly.Authentication.dll": "sha256-W1Fzc8i6P4nG56DygjGZohqQeblYc+5L+OSivVAwBz0=",
       "Microsoft.AspNetCore.Metadata.dll": "sha256-tYBkgcpE9Uhi+xZAH+XLgtMNHASeCWzvIjDrtyKGN6o=",
       "Microsoft.Extensions.Configuration.dll": "sha256-x9zYR1t1is\/fStNpBiQnXyPdMpLLcQcra3w4RXGSg4o=",
       "Microsoft.Extensions.Configuration.Abstractions.dll": "sha256-NYecKM0ZpUvzj4spvgi6xUu80rkx8PX7fiRok\/BNaHw=",
@@ -195,13 +197,13 @@
       "mscorlib.dll": "sha256-+dB3Q0YubUPF1oZDMVZn6ZCiRkzRomtLoq51T5FocJk=",
       "netstandard.dll": "sha256-dOHF0zANIyA4WS496iWrAkTuEFWSWrXJjZj2pQQHrMA=",
       "System.Private.CoreLib.dll": "sha256-C96+zv+mWW0XzMG520oRgAG1lHVY8xzWGc6oc6rFjws=",
-      "FXbox.Cloud.Presentation.BackOffice.dll": "sha256-z5uWe2TMjK7OtLl4ElftH8LqAa8+KR9UTOVyLY5tYtw="
+      "FXbox.Cloud.Presentation.BackOffice.dll": "sha256-+E07OTcb+T\/90CMs307a+4hwHOAoo5PF9Nk3ftXd\/q4="
     },
     "extensions": null,
     "lazyAssembly": null,
     "libraryInitializers": null,
     "pdb": {
-      "FXbox.Cloud.Presentation.BackOffice.pdb": "sha256-C2QF9nkuURQViHI8U8zacOtBid8zQDP7L2kS+WrZ\/Sk="
+      "FXbox.Cloud.Presentation.BackOffice.pdb": "sha256-z\/39BVtGbhqVG8VmLvQmgbp+gQQRYCu\/uxj16ODDSf0="
     },
     "runtime": {
       "dotnet.timezones.blat": "sha256-ir9YCVnnk7popgsYUkvitfGA4WpkP1ydPh\/ENHnxGys=",

@@ -7,6 +7,8 @@ using System.Collections.Generic;
 using System.Net.Http;
 using System.Text;
 using System.Threading.Tasks;
+using FXbox.Cloud.Presentation.BackOffice.Interfaces;
+using FXbox.Cloud.Presentation.BackOffice.Services;
 
 namespace FXbox.Cloud.Presentation.BackOffice
 {
@@ -19,6 +21,11 @@ namespace FXbox.Cloud.Presentation.BackOffice
 
             builder.Services.AddScoped(sp => new HttpClient { BaseAddress = new Uri(builder.HostEnvironment.BaseAddress) });
 
+            builder.Services.AddSingleton<IAgentService, AgentService>();
+            builder.Services.AddSingleton<IAgentsService, AgentsService>();
+            builder.Services.AddSingleton<IUsersService, UsersService>();
+            builder.Services.AddSingleton<ILogsService, LogsService>();
+            
             await builder.Build().RunAsync();
         }
     }
