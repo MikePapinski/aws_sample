@@ -1,0 +1,3 @@
+is_global = true
+build_property.RootNamespace = FXbox.Cloud.Shared
+build_property.ProjectDir = /Users/michalpapinski/Desktop/aws_sample/src/Cloud/Shared/FXbox.Cloud.Shared/

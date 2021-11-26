@@ -1,0 +1,639 @@
+{
+  "FilesToCompress": [
+    {
+      "InputSource": "obj\/Debug\/net5.0\/integrity\/sJi5wzuQkmscSQy50TJ0vSWG9XsnlkZihnhN8O1E66k=.hash",
+      "Source": "\/Users\/michalpapinski\/.nuget\/packages\/mongodb.driver.core\/2.13.2\/runtimes\/win\/native\/libzstd.dll",
+      "Target": "obj\/Debug\/net5.0\/compressed\/_framework\/_bin\/runtimes\/win\/native\/libzstd.dll.gz"
+    },
+    {
+      "InputSource": "obj\/Debug\/net5.0\/integrity\/k8M9VIrDS4lxsB4-uY_4galTD5z27rRC2jn04d4RQCI=.hash",
+      "Source": "\/Users\/michalpapinski\/.nuget\/packages\/mongodb.driver.core\/2.13.2\/runtimes\/win\/native\/snappy32.dll",
+      "Target": "obj\/Debug\/net5.0\/compressed\/_framework\/_bin\/runtimes\/win\/native\/snappy32.dll.gz"
+    },
+    {
+      "InputSource": "obj\/Debug\/net5.0\/integrity\/oL-RbhCr43mqI21RsiQr7FRhZMzg1Rsog_YkF-UIAVs=.hash",
+      "Source": "\/Users\/michalpapinski\/.nuget\/packages\/mongodb.driver.core\/2.13.2\/runtimes\/win\/native\/snappy64.dll",
+      "Target": "obj\/Debug\/net5.0\/compressed\/_framework\/_bin\/runtimes\/win\/native\/snappy64.dll.gz"
+    },
+    {
+      "InputSource": "obj\/Debug\/net5.0\/integrity\/hi__s1GzlHiskTOINIgOkAMfXKRAx_8TcEczeU13vh8=.hash",
+      "Source": "\/Users\/michalpapinski\/.nuget\/packages\/mongodb.libmongocrypt\/1.2.2\/runtimes\/win\/native\/mongocrypt.dll",
+      "Target": "obj\/Debug\/net5.0\/compressed\/_framework\/_bin\/runtimes\/win\/native\/mongocrypt.dll.gz"
+    },
+    {
+      "InputSource": "obj\/Debug\/net5.0\/integrity\/lRjTsvvhp9rvZRyBx6W5txXzN9efGZeMcLg-uIKpZPc=.hash",
+      "Source": "\/Users\/michalpapinski\/Desktop\/aws_sample\/src\/Cloud\/Presentation\/FXbox.Cloud.Presentation.Agent\/obj\/Debug\/net5.0\/blazor\/unlinked\/FXbox.Cloud.Presentation.Agent.dll",
+      "Target": "obj\/Debug\/net5.0\/compressed\/_framework\/_bin\/FXbox.Cloud.Presentation.Agent.dll.gz"
+    },
+    {
+      "InputSource": "obj\/Debug\/net5.0\/integrity\/egPOud7Mcxx-20iAZiekEmazNYxAwi8HO1Z5_a4Ikww=.hash",
+      "Source": "\/Users\/michalpapinski\/Desktop\/aws_sample\/src\/Cloud\/Presentation\/FXbox.Cloud.Presentation.Agent\/obj\/Debug\/net5.0\/blazor\/unlinked\/System.Linq.dll",
+      "Target": "obj\/Debug\/net5.0\/compressed\/_framework\/_bin\/System.Linq.dll.gz"
+    },
+    {
+      "InputSource": "obj\/Debug\/net5.0\/integrity\/Zw2-5aDWjgMedporhjigwhi-UCLcfl0tfa0LXUyD9HE=.hash",
+      "Source": "\/Users\/michalpapinski\/Desktop\/aws_sample\/src\/Cloud\/Presentation\/FXbox.Cloud.Presentation.Agent\/obj\/Debug\/net5.0\/blazor\/unlinked\/System.Core.dll",
+      "Target": "obj\/Debug\/net5.0\/compressed\/_framework\/_bin\/System.Core.dll.gz"
+    },
+    {
+      "InputSource": "obj\/Debug\/net5.0\/integrity\/r6QdEXq0KfB8oZDzhnV4xskSbzJA0yBVi6XFpa3TGHM=.hash",
+      "Source": "\/Users\/michalpapinski\/Desktop\/aws_sample\/src\/Cloud\/Presentation\/FXbox.Cloud.Presentation.Agent\/obj\/Debug\/net5.0\/blazor\/unlinked\/System.dll",
+      "Target": "obj\/Debug\/net5.0\/compressed\/_framework\/_bin\/System.dll.gz"
+    },
+    {
+      "InputSource": "obj\/Debug\/net5.0\/integrity\/ob5gN-szfb1CwWnyQWvWvuid3u4df593KvZeoJQEaKc=.hash",
+      "Source": "\/Users\/michalpapinski\/Desktop\/aws_sample\/src\/Cloud\/Presentation\/FXbox.Cloud.Presentation.Agent\/obj\/Debug\/net5.0\/blazor\/unlinked\/WebAssembly.Net.WebSockets.dll",
+      "Target": "obj\/Debug\/net5.0\/compressed\/_framework\/_bin\/WebAssembly.Net.WebSockets.dll.gz"
+    },
+    {
+      "InputSource": "obj\/Debug\/net5.0\/integrity\/-cPXlNTX8GKF-lIn-2DIjtxTe0Wpy4ZDcyAj67b6JYk=.hash",
+      "Source": "\/Users\/michalpapinski\/Desktop\/aws_sample\/src\/Cloud\/Presentation\/FXbox.Cloud.Presentation.Agent\/obj\/Debug\/net5.0\/blazor\/unlinked\/System.Memory.dll",
+      "Target": "obj\/Debug\/net5.0\/compressed\/_framework\/_bin\/System.Memory.dll.gz"
+    },
+    {
+      "InputSource": "obj\/Debug\/net5.0\/integrity\/BaZPMj95_YNe3G4ckTGD6szZFwZeA2MOHn91zTGKDeU=.hash",
+      "Source": "\/Users\/michalpapinski\/Desktop\/aws_sample\/src\/Cloud\/Presentation\/FXbox.Cloud.Presentation.Agent\/obj\/Debug\/net5.0\/blazor\/unlinked\/mscorlib.dll",
+      "Target": "obj\/Debug\/net5.0\/compressed\/_framework\/_bin\/mscorlib.dll.gz"
+    },
+    {
+      "InputSource": "obj\/Debug\/net5.0\/integrity\/6XMT1eT3svGdg6hFzAHJscYdTQjakoYccYTdHmKSr7Y=.hash",
+      "Source": "\/Users\/michalpapinski\/Desktop\/aws_sample\/src\/Cloud\/Presentation\/FXbox.Cloud.Presentation.Agent\/obj\/Debug\/net5.0\/blazor\/unlinked\/WebAssembly.Bindings.dll",
+      "Target": "obj\/Debug\/net5.0\/compressed\/_framework\/_bin\/WebAssembly.Bindings.dll.gz"
+    },
+    {
+      "InputSource": "obj\/Debug\/net5.0\/integrity\/-zcPVM75OAY_joGVM8yIC1gO1SFYWP1CFERgQ8PJkfA=.hash",
+      "Source": "\/Users\/michalpapinski\/Desktop\/aws_sample\/src\/Cloud\/Presentation\/FXbox.Cloud.Presentation.Agent\/obj\/Debug\/net5.0\/blazor\/unlinked\/netstandard.dll",
+      "Target": "obj\/Debug\/net5.0\/compressed\/_framework\/_bin\/netstandard.dll.gz"
+    },
+    {
+      "InputSource": "obj\/Debug\/net5.0\/integrity\/IPbQMdJxZXdk8HTlaPyXdQ6Zb82iZLphnM74yO4EURQ=.hash",
+      "Source": "\/Users\/michalpapinski\/Desktop\/aws_sample\/src\/Cloud\/Presentation\/FXbox.Cloud.Presentation.Agent\/obj\/Debug\/net5.0\/blazor\/unlinked\/System.Xml.Linq.dll",
+      "Target": "obj\/Debug\/net5.0\/compressed\/_framework\/_bin\/System.Xml.Linq.dll.gz"
+    },
+    {
+      "InputSource": "obj\/Debug\/net5.0\/integrity\/RMOYBniHZkD8OZrBV3ONIMTZqsBhSAcBFm4pVuY9dv4=.hash",
+      "Source": "\/Users\/michalpapinski\/Desktop\/aws_sample\/src\/Cloud\/Presentation\/FXbox.Cloud.Presentation.Agent\/obj\/Debug\/net5.0\/blazor\/unlinked\/System.Xml.dll",
+      "Target": "obj\/Debug\/net5.0\/compressed\/_framework\/_bin\/System.Xml.dll.gz"
+    },
+    {
+      "InputSource": "obj\/Debug\/net5.0\/integrity\/VAHA4LWcsdHUBgFG1-xwhc4IyJ0ZH9UyK9_qSPzDa6Y=.hash",
+      "Source": "\/Users\/michalpapinski\/Desktop\/aws_sample\/src\/Cloud\/Presentation\/FXbox.Cloud.Presentation.Agent\/obj\/Debug\/net5.0\/blazor\/unlinked\/System.Transactions.dll",
+      "Target": "obj\/Debug\/net5.0\/compressed\/_framework\/_bin\/System.Transactions.dll.gz"
+    },
+    {
+      "InputSource": "obj\/Debug\/net5.0\/integrity\/C09aqx1vDLK7zQ9XnZcUqAgTDRwybxhRg-FR8HSk1v8=.hash",
+      "Source": "\/Users\/michalpapinski\/Desktop\/aws_sample\/src\/Cloud\/Presentation\/FXbox.Cloud.Presentation.Agent\/obj\/Debug\/net5.0\/blazor\/unlinked\/System.Runtime.Serialization.dll",
+      "Target": "obj\/Debug\/net5.0\/compressed\/_framework\/_bin\/System.Runtime.Serialization.dll.gz"
+    },
+    {
+      "InputSource": "obj\/Debug\/net5.0\/integrity\/6mtLxbGMMGcIfch8cp0W9gmBoI493AxBRUPGEzOn3nU=.hash",
+      "Source": "\/Users\/michalpapinski\/Desktop\/aws_sample\/src\/Cloud\/Presentation\/FXbox.Cloud.Presentation.Agent\/obj\/Debug\/net5.0\/blazor\/unlinked\/System.ServiceModel.Internals.dll",
+      "Target": "obj\/Debug\/net5.0\/compressed\/_framework\/_bin\/System.ServiceModel.Internals.dll.gz"
+    },
+    {
+      "InputSource": "obj\/Debug\/net5.0\/integrity\/8g0neeYVmPrxWgbMI0ZTVO6257qMisUTPZ78egAnIMw=.hash",
+      "Source": "\/Users\/michalpapinski\/Desktop\/aws_sample\/src\/Cloud\/Presentation\/FXbox.Cloud.Presentation.Agent\/obj\/Debug\/net5.0\/blazor\/unlinked\/System.Numerics.dll",
+      "Target": "obj\/Debug\/net5.0\/compressed\/_framework\/_bin\/System.Numerics.dll.gz"
+    },
+    {
+      "InputSource": "obj\/Debug\/net5.0\/integrity\/moW4EYN6ExD6T0vSBMMggn62cZaTd8dSr9b-yj-9dPM=.hash",
+      "Source": "\/Users\/michalpapinski\/Desktop\/aws_sample\/src\/Cloud\/Presentation\/FXbox.Cloud.Presentation.Agent\/obj\/Debug\/net5.0\/blazor\/unlinked\/System.Net.Http.dll",
+      "Target": "obj\/Debug\/net5.0\/compressed\/_framework\/_bin\/System.Net.Http.dll.gz"
+    },
+    {
+      "InputSource": "obj\/Debug\/net5.0\/integrity\/LUtkiqNd5ABTiuiYaqzaJxVjPq_Z4FqezuIWk-faqSA=.hash",
+      "Source": "\/Users\/michalpapinski\/Desktop\/aws_sample\/src\/Cloud\/Presentation\/FXbox.Cloud.Presentation.Agent\/obj\/Debug\/net5.0\/blazor\/unlinked\/System.Net.Http.WebAssemblyHttpHandler.dll",
+      "Target": "obj\/Debug\/net5.0\/compressed\/_framework\/_bin\/System.Net.Http.WebAssemblyHttpHandler.dll.gz"
+    },
+    {
+      "InputSource": "obj\/Debug\/net5.0\/integrity\/R8CUbbWAKar388eFQJhUgiTgLEv2Mih9wr9iO0P7ImU=.hash",
+      "Source": "\/Users\/michalpapinski\/Desktop\/aws_sample\/src\/Cloud\/Presentation\/FXbox.Cloud.Presentation.Agent\/obj\/Debug\/net5.0\/blazor\/unlinked\/System.ComponentModel.Composition.dll",
+      "Target": "obj\/Debug\/net5.0\/compressed\/_framework\/_bin\/System.ComponentModel.Composition.dll.gz"
+    },
+    {
+      "InputSource": "obj\/Debug\/net5.0\/integrity\/ptCMHBy9q8MMLU0ukLMuvvhQk-yYljw37MTKtfsvuFQ=.hash",
+      "Source": "\/Users\/michalpapinski\/Desktop\/aws_sample\/src\/Cloud\/Presentation\/FXbox.Cloud.Presentation.Agent\/obj\/Debug\/net5.0\/blazor\/unlinked\/System.IO.Compression.FileSystem.dll",
+      "Target": "obj\/Debug\/net5.0\/compressed\/_framework\/_bin\/System.IO.Compression.FileSystem.dll.gz"
+    },
+    {
+      "InputSource": "obj\/Debug\/net5.0\/integrity\/hLbkXBzxUk9DSXYTLGRowe_80rxmpXsqEZbPIL4_5zs=.hash",
+      "Source": "\/Users\/michalpapinski\/Desktop\/aws_sample\/src\/Cloud\/Presentation\/FXbox.Cloud.Presentation.Agent\/obj\/Debug\/net5.0\/blazor\/unlinked\/System.IO.Compression.dll",
+      "Target": "obj\/Debug\/net5.0\/compressed\/_framework\/_bin\/System.IO.Compression.dll.gz"
+    },
+    {
+      "InputSource": "obj\/Debug\/net5.0\/integrity\/vcCLMX4xAsUqKuQjjIkzu1O9pHGO-tdvysgSmEjL6oo=.hash",
+      "Source": "\/Users\/michalpapinski\/Desktop\/aws_sample\/src\/Cloud\/Presentation\/FXbox.Cloud.Presentation.Agent\/obj\/Debug\/net5.0\/blazor\/unlinked\/System.Drawing.Common.dll",
+      "Target": "obj\/Debug\/net5.0\/compressed\/_framework\/_bin\/System.Drawing.Common.dll.gz"
+    },
+    {
+      "InputSource": "obj\/Debug\/net5.0\/integrity\/eejp4oI3sQBq-tI6GsJNaPu3Dkdot5Vbn8_R3w2vYLE=.hash",
+      "Source": "\/Users\/michalpapinski\/Desktop\/aws_sample\/src\/Cloud\/Presentation\/FXbox.Cloud.Presentation.Agent\/obj\/Debug\/net5.0\/blazor\/unlinked\/System.Data.DataSetExtensions.dll",
+      "Target": "obj\/Debug\/net5.0\/compressed\/_framework\/_bin\/System.Data.DataSetExtensions.dll.gz"
+    },
+    {
+      "InputSource": "obj\/Debug\/net5.0\/integrity\/dxfTuT6ffPMmvuUUTfv7_bpLtOZZZHQdz77hjhy9qHw=.hash",
+      "Source": "\/Users\/michalpapinski\/Desktop\/aws_sample\/src\/Cloud\/Presentation\/FXbox.Cloud.Presentation.Agent\/obj\/Debug\/net5.0\/blazor\/unlinked\/System.Data.dll",
+      "Target": "obj\/Debug\/net5.0\/compressed\/_framework\/_bin\/System.Data.dll.gz"
+    },
+    {
+      "InputSource": "obj\/Debug\/net5.0\/integrity\/fMngt4py0YmfHqV6eONyCI6R5m_YOE7KZ3U4MzCrskE=.hash",
+      "Source": "\/Users\/michalpapinski\/Desktop\/aws_sample\/src\/Cloud\/Presentation\/FXbox.Cloud.Presentation.Agent\/obj\/Debug\/net5.0\/blazor\/unlinked\/Mono.Security.dll",
+      "Target": "obj\/Debug\/net5.0\/compressed\/_framework\/_bin\/Mono.Security.dll.gz"
+    },
+    {
+      "InputSource": "obj\/Debug\/net5.0\/integrity\/99dseBOagY3mzu5Y8Eqm8gRI_o8QbbCp7R2Ew9bQ_5E=.hash",
+      "Source": "\/Users\/michalpapinski\/Desktop\/aws_sample\/src\/Cloud\/Presentation\/FXbox.Cloud.Presentation.Agent\/obj\/Debug\/net5.0\/blazor\/unlinked\/System.Net.Http.Json.dll",
+      "Target": "obj\/Debug\/net5.0\/compressed\/_framework\/_bin\/System.Net.Http.Json.dll.gz"
+    },
+    {
+      "InputSource": "obj\/Debug\/net5.0\/integrity\/ZxXy75PYbzJxNfAc-SAP1nUYm4gt1jSaOpFnBb9m85M=.hash",
+      "Source": "\/Users\/michalpapinski\/Desktop\/aws_sample\/src\/Cloud\/Presentation\/FXbox.Cloud.Presentation.Agent\/obj\/Debug\/net5.0\/blazor\/unlinked\/System.Buffers.dll",
+      "Target": "obj\/Debug\/net5.0\/compressed\/_framework\/_bin\/System.Buffers.dll.gz"
+    },
+    {
+      "InputSource": "obj\/Debug\/net5.0\/integrity\/TkH6yxFQlTfY8NfznePrCdYJiEVpM9Dqy4Uu4H9qk10=.hash",
+      "Source": "\/Users\/michalpapinski\/Desktop\/aws_sample\/src\/Cloud\/Presentation\/FXbox.Cloud.Presentation.Agent\/obj\/Debug\/net5.0\/blazor\/unlinked\/System.Threading.Tasks.Extensions.dll",
+      "Target": "obj\/Debug\/net5.0\/compressed\/_framework\/_bin\/System.Threading.Tasks.Extensions.dll.gz"
+    },
+    {
+      "InputSource": "obj\/Debug\/net5.0\/integrity\/nm6JsA-GVPOuw_lLud2THfLJtdMxhTMQRMNdBo4edNw=.hash",
+      "Source": "\/Users\/michalpapinski\/Desktop\/aws_sample\/src\/Cloud\/Presentation\/FXbox.Cloud.Presentation.Agent\/obj\/Debug\/net5.0\/blazor\/unlinked\/System.Text.Json.dll",
+      "Target": "obj\/Debug\/net5.0\/compressed\/_framework\/_bin\/System.Text.Json.dll.gz"
+    },
+    {
+      "InputSource": "obj\/Debug\/net5.0\/integrity\/kL-omZDwqByAi_lPdMeDmr3XjHcn4RVb_LmZ4mut1Yc=.hash",
+      "Source": "\/Users\/michalpapinski\/Desktop\/aws_sample\/src\/Cloud\/Presentation\/FXbox.Cloud.Presentation.Agent\/obj\/Debug\/net5.0\/blazor\/unlinked\/System.Runtime.CompilerServices.Unsafe.dll",
+      "Target": "obj\/Debug\/net5.0\/compressed\/_framework\/_bin\/System.Runtime.CompilerServices.Unsafe.dll.gz"
+    },
+    {
+      "InputSource": "obj\/Debug\/net5.0\/integrity\/mzuLugvmIOgYjOk4f3eQas5TIH2wER7oBvjOd1j22ps=.hash",
+      "Source": "\/Users\/michalpapinski\/Desktop\/aws_sample\/src\/Cloud\/Presentation\/FXbox.Cloud.Presentation.Agent\/obj\/Debug\/net5.0\/blazor\/unlinked\/System.Threading.dll",
+      "Target": "obj\/Debug\/net5.0\/compressed\/_framework\/_bin\/System.Threading.dll.gz"
+    },
+    {
+      "InputSource": "obj\/Debug\/net5.0\/integrity\/Pt0gKZW54C_3DsLw_QRTQSP_ycXbOGSm2UWYSNZZYQ0=.hash",
+      "Source": "\/Users\/michalpapinski\/Desktop\/aws_sample\/src\/Cloud\/Presentation\/FXbox.Cloud.Presentation.Agent\/obj\/Debug\/net5.0\/blazor\/unlinked\/System.Reflection.Primitives.dll",
+      "Target": "obj\/Debug\/net5.0\/compressed\/_framework\/_bin\/System.Reflection.Primitives.dll.gz"
+    },
+    {
+      "InputSource": "obj\/Debug\/net5.0\/integrity\/yTznKFXYjwtGYUGUdxYEw8gA1A_IWlMYOncOmAAyJas=.hash",
+      "Source": "\/Users\/michalpapinski\/Desktop\/aws_sample\/src\/Cloud\/Presentation\/FXbox.Cloud.Presentation.Agent\/obj\/Debug\/net5.0\/blazor\/unlinked\/System.Reflection.Emit.ILGeneration.dll",
+      "Target": "obj\/Debug\/net5.0\/compressed\/_framework\/_bin\/System.Reflection.Emit.ILGeneration.dll.gz"
+    },
+    {
+      "InputSource": "obj\/Debug\/net5.0\/integrity\/BCNQuQIDEqyAAs5OZBfGJWZ2pzbzCJXf-rZmstivU1o=.hash",
+      "Source": "\/Users\/michalpapinski\/Desktop\/aws_sample\/src\/Cloud\/Presentation\/FXbox.Cloud.Presentation.Agent\/obj\/Debug\/net5.0\/blazor\/unlinked\/System.Reflection.Emit.Lightweight.dll",
+      "Target": "obj\/Debug\/net5.0\/compressed\/_framework\/_bin\/System.Reflection.Emit.Lightweight.dll.gz"
+    },
+    {
+      "InputSource": "obj\/Debug\/net5.0\/integrity\/0DkivnJM7oa873U6hPAJZQydu9FtNy2XJG-GcmVt7OA=.hash",
+      "Source": "\/Users\/michalpapinski\/Desktop\/aws_sample\/src\/Cloud\/Presentation\/FXbox.Cloud.Presentation.Agent\/obj\/Debug\/net5.0\/blazor\/unlinked\/System.Diagnostics.Tools.dll",
+      "Target": "obj\/Debug\/net5.0\/compressed\/_framework\/_bin\/System.Diagnostics.Tools.dll.gz"
+    },
+    {
+      "InputSource": "obj\/Debug\/net5.0\/integrity\/Pts2S7BakHY8LACDy5I26bdgF2CrhSoTCirY4R-_sBE=.hash",
+      "Source": "\/Users\/michalpapinski\/Desktop\/aws_sample\/src\/Cloud\/Presentation\/FXbox.Cloud.Presentation.Agent\/obj\/Debug\/net5.0\/blazor\/unlinked\/System.Collections.Concurrent.dll",
+      "Target": "obj\/Debug\/net5.0\/compressed\/_framework\/_bin\/System.Collections.Concurrent.dll.gz"
+    },
+    {
+      "InputSource": "obj\/Debug\/net5.0\/integrity\/qAKfFnquY_7UC-MzLi04rjqEhLzTryCoLg-S6MxI19I=.hash",
+      "Source": "\/Users\/michalpapinski\/Desktop\/aws_sample\/src\/Cloud\/Presentation\/FXbox.Cloud.Presentation.Agent\/obj\/Debug\/net5.0\/blazor\/unlinked\/System.Numerics.Vectors.dll",
+      "Target": "obj\/Debug\/net5.0\/compressed\/_framework\/_bin\/System.Numerics.Vectors.dll.gz"
+    },
+    {
+      "InputSource": "obj\/Debug\/net5.0\/integrity\/z8iFDTIYfU-3d7Ovx4YrLVKTe9yU9vK9m4VWuqBMIqw=.hash",
+      "Source": "\/Users\/michalpapinski\/Desktop\/aws_sample\/src\/Cloud\/Presentation\/FXbox.Cloud.Presentation.Agent\/obj\/Debug\/net5.0\/blazor\/unlinked\/System.Text.Encoding.Extensions.dll",
+      "Target": "obj\/Debug\/net5.0\/compressed\/_framework\/_bin\/System.Text.Encoding.Extensions.dll.gz"
+    },
+    {
+      "InputSource": "obj\/Debug\/net5.0\/integrity\/tFMMNru1KjM9tY0dph3potA-qlmOtgZOwHLp_imUF7Y=.hash",
+      "Source": "\/Users\/michalpapinski\/Desktop\/aws_sample\/src\/Cloud\/Presentation\/FXbox.Cloud.Presentation.Agent\/obj\/Debug\/net5.0\/blazor\/unlinked\/System.Diagnostics.Debug.dll",
+      "Target": "obj\/Debug\/net5.0\/compressed\/_framework\/_bin\/System.Diagnostics.Debug.dll.gz"
+    },
+    {
+      "InputSource": "obj\/Debug\/net5.0\/integrity\/dqzLPW8oFg5YVC2_79UXgMTdvPsrnepDLYkV0Ipnmbo=.hash",
+      "Source": "\/Users\/michalpapinski\/Desktop\/aws_sample\/src\/Cloud\/Presentation\/FXbox.Cloud.Presentation.Agent\/obj\/Debug\/net5.0\/blazor\/unlinked\/System.Threading.Tasks.dll",
+      "Target": "obj\/Debug\/net5.0\/compressed\/_framework\/_bin\/System.Threading.Tasks.dll.gz"
+    },
+    {
+      "InputSource": "obj\/Debug\/net5.0\/integrity\/uuD0U1uppbWJI5NMnV8ZrVKRl7sFINANB6M8jml05i0=.hash",
+      "Source": "\/Users\/michalpapinski\/Desktop\/aws_sample\/src\/Cloud\/Presentation\/FXbox.Cloud.Presentation.Agent\/obj\/Debug\/net5.0\/blazor\/unlinked\/System.Text.Encodings.Web.dll",
+      "Target": "obj\/Debug\/net5.0\/compressed\/_framework\/_bin\/System.Text.Encodings.Web.dll.gz"
+    },
+    {
+      "InputSource": "obj\/Debug\/net5.0\/integrity\/1FBfAreOfbXDp0WA294BCrk0EIa5ZqlghOuvDlqFtk8=.hash",
+      "Source": "\/Users\/michalpapinski\/Desktop\/aws_sample\/src\/Cloud\/Presentation\/FXbox.Cloud.Presentation.Agent\/obj\/Debug\/net5.0\/blazor\/unlinked\/System.Runtime.Extensions.dll",
+      "Target": "obj\/Debug\/net5.0\/compressed\/_framework\/_bin\/System.Runtime.Extensions.dll.gz"
+    },
+    {
+      "InputSource": "obj\/Debug\/net5.0\/integrity\/U4q43ZeuBEBaCygKJwr18fjDYwnFv22MHuvMVqnpNzI=.hash",
+      "Source": "\/Users\/michalpapinski\/Desktop\/aws_sample\/src\/Cloud\/Presentation\/FXbox.Cloud.Presentation.Agent\/obj\/Debug\/net5.0\/blazor\/unlinked\/System.Resources.ResourceManager.dll",
+      "Target": "obj\/Debug\/net5.0\/compressed\/_framework\/_bin\/System.Resources.ResourceManager.dll.gz"
+    },
+    {
+      "InputSource": "obj\/Debug\/net5.0\/integrity\/6CpyRQAYrVPJfNYBKH0K9lWX_rNPO15lwNhGHPmvxtk=.hash",
+      "Source": "\/Users\/michalpapinski\/Desktop\/aws_sample\/src\/Cloud\/Presentation\/FXbox.Cloud.Presentation.Agent\/obj\/Debug\/net5.0\/blazor\/unlinked\/System.Runtime.dll",
+      "Target": "obj\/Debug\/net5.0\/compressed\/_framework\/_bin\/System.Runtime.dll.gz"
+    },
+    {
+      "InputSource": "obj\/Debug\/net5.0\/integrity\/zWDzFtXZzC_KLMGVRm7c4nLj3X7VnzT9SMdxCVqb3dE=.hash",
+      "Source": "\/Users\/michalpapinski\/Desktop\/aws_sample\/src\/Cloud\/Presentation\/FXbox.Cloud.Presentation.Agent\/obj\/Debug\/net5.0\/blazor\/unlinked\/System.Collections.dll",
+      "Target": "obj\/Debug\/net5.0\/compressed\/_framework\/_bin\/System.Collections.dll.gz"
+    },
+    {
+      "InputSource": "obj\/Debug\/net5.0\/integrity\/9EIJjnuTENxAAcDE5K4qM3i7So1HM--AjJo7QrcavpM=.hash",
+      "Source": "\/Users\/michalpapinski\/Desktop\/aws_sample\/src\/Cloud\/Presentation\/FXbox.Cloud.Presentation.Agent\/obj\/Debug\/net5.0\/blazor\/unlinked\/Microsoft.Extensions.Configuration.Abstractions.dll",
+      "Target": "obj\/Debug\/net5.0\/compressed\/_framework\/_bin\/Microsoft.Extensions.Configuration.Abstractions.dll.gz"
+    },
+    {
+      "InputSource": "obj\/Debug\/net5.0\/integrity\/infvD3jN9bYmJxoRcs77i2tzHKkcXfx31P6LOKpR-bs=.hash",
+      "Source": "\/Users\/michalpapinski\/Desktop\/aws_sample\/src\/Cloud\/Presentation\/FXbox.Cloud.Presentation.Agent\/obj\/Debug\/net5.0\/blazor\/unlinked\/Microsoft.Extensions.Primitives.dll",
+      "Target": "obj\/Debug\/net5.0\/compressed\/_framework\/_bin\/Microsoft.Extensions.Primitives.dll.gz"
+    },
+    {
+      "InputSource": "obj\/Debug\/net5.0\/integrity\/XAnEkn2DkDU-Xn588HKF6xZ5f3g9Eyzmw3DjEGtn2lM=.hash",
+      "Source": "\/Users\/michalpapinski\/Desktop\/aws_sample\/src\/Cloud\/Presentation\/FXbox.Cloud.Presentation.Agent\/obj\/Debug\/net5.0\/blazor\/unlinked\/System.Runtime.InteropServices.dll",
+      "Target": "obj\/Debug\/net5.0\/compressed\/_framework\/_bin\/System.Runtime.InteropServices.dll.gz"
+    },
+    {
+      "InputSource": "obj\/Debug\/net5.0\/integrity\/TkCh4V0UZahi0B6Hx0-GhMvt0N8RpgXW2P6gYUU-hcw=.hash",
+      "Source": "\/Users\/michalpapinski\/Desktop\/aws_sample\/src\/Cloud\/Presentation\/FXbox.Cloud.Presentation.Agent\/obj\/Debug\/net5.0\/blazor\/unlinked\/Microsoft.Extensions.Http.dll",
+      "Target": "obj\/Debug\/net5.0\/compressed\/_framework\/_bin\/Microsoft.Extensions.Http.dll.gz"
+    },
+    {
+      "InputSource": "obj\/Debug\/net5.0\/integrity\/GDZQCBtVHfrZZ6fL95lGoinLeUWLjQShLbfESwO7mrc=.hash",
+      "Source": "\/Users\/michalpapinski\/Desktop\/aws_sample\/src\/Cloud\/Presentation\/FXbox.Cloud.Presentation.Agent\/obj\/Debug\/net5.0\/blazor\/unlinked\/Microsoft.Extensions.Logging.dll",
+      "Target": "obj\/Debug\/net5.0\/compressed\/_framework\/_bin\/Microsoft.Extensions.Logging.dll.gz"
+    },
+    {
+      "InputSource": "obj\/Debug\/net5.0\/integrity\/W9874PIupFTqbsiwd0sDVCCHjPayyziMTLiWWdGBn5g=.hash",
+      "Source": "\/Users\/michalpapinski\/Desktop\/aws_sample\/src\/Cloud\/Presentation\/FXbox.Cloud.Presentation.Agent\/obj\/Debug\/net5.0\/blazor\/unlinked\/System.Diagnostics.DiagnosticSource.dll",
+      "Target": "obj\/Debug\/net5.0\/compressed\/_framework\/_bin\/System.Diagnostics.DiagnosticSource.dll.gz"
+    },
+    {
+      "InputSource": "obj\/Debug\/net5.0\/integrity\/jIMcnMXsruhc9751AB7zE6e-k2GtjeGkHxB-_BFzOZg=.hash",
+      "Source": "\/Users\/michalpapinski\/Desktop\/aws_sample\/src\/Cloud\/Presentation\/FXbox.Cloud.Presentation.Agent\/obj\/Debug\/net5.0\/blazor\/unlinked\/System.Threading.Thread.dll",
+      "Target": "obj\/Debug\/net5.0\/compressed\/_framework\/_bin\/System.Threading.Thread.dll.gz"
+    },
+    {
+      "InputSource": "obj\/Debug\/net5.0\/integrity\/g3D7CEj2L0Qctx7Es-Pvvvauld0RQjyo76PPB99L9Qk=.hash",
+      "Source": "\/Users\/michalpapinski\/Desktop\/aws_sample\/src\/Cloud\/Presentation\/FXbox.Cloud.Presentation.Agent\/obj\/Debug\/net5.0\/blazor\/unlinked\/System.Diagnostics.Tracing.dll",
+      "Target": "obj\/Debug\/net5.0\/compressed\/_framework\/_bin\/System.Diagnostics.Tracing.dll.gz"
+    },
+    {
+      "InputSource": "obj\/Debug\/net5.0\/integrity\/UB78QWNHi5M3Bf37iSAdQKoqFSV97_cVnVgSyeyAWao=.hash",
+      "Source": "\/Users\/michalpapinski\/Desktop\/aws_sample\/src\/Cloud\/Presentation\/FXbox.Cloud.Presentation.Agent\/obj\/Debug\/net5.0\/blazor\/unlinked\/Microsoft.Extensions.DependencyInjection.dll",
+      "Target": "obj\/Debug\/net5.0\/compressed\/_framework\/_bin\/Microsoft.Extensions.DependencyInjection.dll.gz"
+    },
+    {
+      "InputSource": "obj\/Debug\/net5.0\/integrity\/WmhXWWzy-w3N0RiPmLJQxZcmPGQAdtfI9IK_YaOY0Yc=.hash",
+      "Source": "\/Users\/michalpapinski\/Desktop\/aws_sample\/src\/Cloud\/Presentation\/FXbox.Cloud.Presentation.Agent\/obj\/Debug\/net5.0\/blazor\/unlinked\/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
+      "Target": "obj\/Debug\/net5.0\/compressed\/_framework\/_bin\/Microsoft.Extensions.DependencyInjection.Abstractions.dll.gz"
+    },
+    {
+      "InputSource": "obj\/Debug\/net5.0\/integrity\/-vKsvGE9k1NEQ-ksgwI4AdJfiIvMV-JffMAY2-Jumd8=.hash",
+      "Source": "\/Users\/michalpapinski\/Desktop\/aws_sample\/src\/Cloud\/Presentation\/FXbox.Cloud.Presentation.Agent\/obj\/Debug\/net5.0\/blazor\/unlinked\/Microsoft.Extensions.Logging.Abstractions.dll",
+      "Target": "obj\/Debug\/net5.0\/compressed\/_framework\/_bin\/Microsoft.Extensions.Logging.Abstractions.dll.gz"
+    },
+    {
+      "InputSource": "obj\/Debug\/net5.0\/integrity\/eGESyy9mRu8RcCGajAu4E8nxSmeB5nxiZkFPVaZ5Vl0=.hash",
+      "Source": "\/Users\/michalpapinski\/Desktop\/aws_sample\/src\/Cloud\/Presentation\/FXbox.Cloud.Presentation.Agent\/obj\/Debug\/net5.0\/blazor\/unlinked\/Microsoft.Extensions.Options.dll",
+      "Target": "obj\/Debug\/net5.0\/compressed\/_framework\/_bin\/Microsoft.Extensions.Options.dll.gz"
+    },
+    {
+      "InputSource": "obj\/Debug\/net5.0\/integrity\/KfC-3CY9_91QCNIHgqhxRV3NCdmlxIJn0i6RSyHT3is=.hash",
+      "Source": "\/Users\/michalpapinski\/Desktop\/aws_sample\/src\/Cloud\/Presentation\/FXbox.Cloud.Presentation.Agent\/obj\/Debug\/net5.0\/blazor\/unlinked\/System.Net.Primitives.dll",
+      "Target": "obj\/Debug\/net5.0\/compressed\/_framework\/_bin\/System.Net.Primitives.dll.gz"
+    },
+    {
+      "InputSource": "obj\/Debug\/net5.0\/integrity\/6cxIu3mlJOB9Actp4JdoEz-xMT0vnQvnxVMtIobv6EU=.hash",
+      "Source": "\/Users\/michalpapinski\/Desktop\/aws_sample\/src\/Cloud\/Presentation\/FXbox.Cloud.Presentation.Agent\/obj\/Debug\/net5.0\/blazor\/unlinked\/System.ComponentModel.dll",
+      "Target": "obj\/Debug\/net5.0\/compressed\/_framework\/_bin\/System.ComponentModel.dll.gz"
+    },
+    {
+      "InputSource": "obj\/Debug\/net5.0\/integrity\/54f_9zkI251CBmStMMq5iIhN1N15W_tyo0Qcg1QlQPA=.hash",
+      "Source": "\/Users\/michalpapinski\/Desktop\/aws_sample\/src\/Cloud\/Presentation\/FXbox.Cloud.Presentation.Agent\/obj\/Debug\/net5.0\/blazor\/unlinked\/System.Threading.Timer.dll",
+      "Target": "obj\/Debug\/net5.0\/compressed\/_framework\/_bin\/System.Threading.Timer.dll.gz"
+    },
+    {
+      "InputSource": "obj\/Debug\/net5.0\/integrity\/UgDVHgFIWC5N25340N3w85p9sijUY6v8fkC5jdiCbkg=.hash",
+      "Source": "\/Users\/michalpapinski\/Desktop\/aws_sample\/src\/Cloud\/Presentation\/FXbox.Cloud.Presentation.Agent\/obj\/Debug\/net5.0\/blazor\/unlinked\/FXbox.Cloud.Shared.dll",
+      "Target": "obj\/Debug\/net5.0\/compressed\/_framework\/_bin\/FXbox.Cloud.Shared.dll.gz"
+    },
+    {
+      "InputSource": "obj\/Debug\/net5.0\/integrity\/crBuVV3SgaAMMqN__Jr6FItvprI8RhMmaAuqyvoi3g8=.hash",
+      "Source": "\/Users\/michalpapinski\/Desktop\/aws_sample\/src\/Cloud\/Presentation\/FXbox.Cloud.Presentation.Agent\/obj\/Debug\/net5.0\/blazor\/unlinked\/Microsoft.IdentityModel.Logging.dll",
+      "Target": "obj\/Debug\/net5.0\/compressed\/_framework\/_bin\/Microsoft.IdentityModel.Logging.dll.gz"
+    },
+    {
+      "InputSource": "obj\/Debug\/net5.0\/integrity\/dvuX5BPbr01vV9mEBk1ZSqetWwEoep8ucAIQMBxePIQ=.hash",
+      "Source": "\/Users\/michalpapinski\/Desktop\/aws_sample\/src\/Cloud\/Presentation\/FXbox.Cloud.Presentation.Agent\/obj\/Debug\/net5.0\/blazor\/unlinked\/Microsoft.AspNetCore.SignalR.Client.Core.dll",
+      "Target": "obj\/Debug\/net5.0\/compressed\/_framework\/_bin\/Microsoft.AspNetCore.SignalR.Client.Core.dll.gz"
+    },
+    {
+      "InputSource": "obj\/Debug\/net5.0\/integrity\/oj1lL5bZYlElelwNFK7PpVoeWWySJTShku12Qq3cYH4=.hash",
+      "Source": "\/Users\/michalpapinski\/Desktop\/aws_sample\/src\/Cloud\/Presentation\/FXbox.Cloud.Presentation.Agent\/obj\/Debug\/net5.0\/blazor\/unlinked\/Microsoft.Extensions.Features.dll",
+      "Target": "obj\/Debug\/net5.0\/compressed\/_framework\/_bin\/Microsoft.Extensions.Features.dll.gz"
+    },
+    {
+      "InputSource": "obj\/Debug\/net5.0\/integrity\/qRH8ydppsjNN_Hs0yAxqoTvYUnHanhgXoJWKtFd69CA=.hash",
+      "Source": "\/Users\/michalpapinski\/Desktop\/aws_sample\/src\/Cloud\/Presentation\/FXbox.Cloud.Presentation.Agent\/obj\/Debug\/net5.0\/blazor\/unlinked\/Microsoft.AspNetCore.SignalR.Protocols.Json.dll",
+      "Target": "obj\/Debug\/net5.0\/compressed\/_framework\/_bin\/Microsoft.AspNetCore.SignalR.Protocols.Json.dll.gz"
+    },
+    {
+      "InputSource": "obj\/Debug\/net5.0\/integrity\/w28U9xCoAORPjmuJHByrL3_AZKMpiIp2GqzsUJKW8Fc=.hash",
+      "Source": "\/Users\/michalpapinski\/Desktop\/aws_sample\/src\/Cloud\/Presentation\/FXbox.Cloud.Presentation.Agent\/obj\/Debug\/net5.0\/blazor\/unlinked\/Microsoft.AspNetCore.Connections.Abstractions.dll",
+      "Target": "obj\/Debug\/net5.0\/compressed\/_framework\/_bin\/Microsoft.AspNetCore.Connections.Abstractions.dll.gz"
+    },
+    {
+      "InputSource": "obj\/Debug\/net5.0\/integrity\/Bko01tsG7cdpWYe2C2fV-pq4gI6ebKCIS8-qVyHzggI=.hash",
+      "Source": "\/Users\/michalpapinski\/Desktop\/aws_sample\/src\/Cloud\/Presentation\/FXbox.Cloud.Presentation.Agent\/obj\/Debug\/net5.0\/blazor\/unlinked\/System.IO.Pipelines.dll",
+      "Target": "obj\/Debug\/net5.0\/compressed\/_framework\/_bin\/System.IO.Pipelines.dll.gz"
+    },
+    {
+      "InputSource": "obj\/Debug\/net5.0\/integrity\/eGkG7ASpnEG2Atavo-ISr5rWYhnYJE9PnXY3CdmBEPQ=.hash",
+      "Source": "\/Users\/michalpapinski\/Desktop\/aws_sample\/src\/Cloud\/Presentation\/FXbox.Cloud.Presentation.Agent\/obj\/Debug\/net5.0\/blazor\/unlinked\/System.Threading.ThreadPool.dll",
+      "Target": "obj\/Debug\/net5.0\/compressed\/_framework\/_bin\/System.Threading.ThreadPool.dll.gz"
+    },
+    {
+      "InputSource": "obj\/Debug\/net5.0\/integrity\/DeWSYi6Xs03Gz6Zx2hR0H4aql_nHrzU5g53m-PcRosE=.hash",
+      "Source": "\/Users\/michalpapinski\/Desktop\/aws_sample\/src\/Cloud\/Presentation\/FXbox.Cloud.Presentation.Agent\/obj\/Debug\/net5.0\/blazor\/unlinked\/Microsoft.AspNetCore.SignalR.Common.dll",
+      "Target": "obj\/Debug\/net5.0\/compressed\/_framework\/_bin\/Microsoft.AspNetCore.SignalR.Common.dll.gz"
+    },
+    {
+      "InputSource": "obj\/Debug\/net5.0\/integrity\/0L0lKv1TQZeKUXd1ARhBYC1sFA4H01xSNjaKk6bWlRU=.hash",
+      "Source": "\/Users\/michalpapinski\/Desktop\/aws_sample\/src\/Cloud\/Presentation\/FXbox.Cloud.Presentation.Agent\/obj\/Debug\/net5.0\/blazor\/unlinked\/System.Threading.Channels.dll",
+      "Target": "obj\/Debug\/net5.0\/compressed\/_framework\/_bin\/System.Threading.Channels.dll.gz"
+    },
+    {
+      "InputSource": "obj\/Debug\/net5.0\/integrity\/I5LsN15C42LSfbfu7Z4tQW0ZziALCMaAFoZFPDcmRck=.hash",
+      "Source": "\/Users\/michalpapinski\/Desktop\/aws_sample\/src\/Cloud\/Presentation\/FXbox.Cloud.Presentation.Agent\/obj\/Debug\/net5.0\/blazor\/unlinked\/MongoDB.Bson.dll",
+      "Target": "obj\/Debug\/net5.0\/compressed\/_framework\/_bin\/MongoDB.Bson.dll.gz"
+    },
+    {
+      "InputSource": "obj\/Debug\/net5.0\/integrity\/gQ426UT1KXJeey3VxWzfD6c7ocifAHkIU0XJHD1396k=.hash",
+      "Source": "\/Users\/michalpapinski\/Desktop\/aws_sample\/src\/Cloud\/Presentation\/FXbox.Cloud.Presentation.Agent\/obj\/Debug\/net5.0\/blazor\/unlinked\/System.IdentityModel.Tokens.Jwt.dll",
+      "Target": "obj\/Debug\/net5.0\/compressed\/_framework\/_bin\/System.IdentityModel.Tokens.Jwt.dll.gz"
+    },
+    {
+      "InputSource": "obj\/Debug\/net5.0\/integrity\/Tu-c5zUurMX8GiH9vIRwKdemuBYsW5ru2lY6i6-_Zg0=.hash",
+      "Source": "\/Users\/michalpapinski\/Desktop\/aws_sample\/src\/Cloud\/Presentation\/FXbox.Cloud.Presentation.Agent\/obj\/Debug\/net5.0\/blazor\/unlinked\/Microsoft.IdentityModel.JsonWebTokens.dll",
+      "Target": "obj\/Debug\/net5.0\/compressed\/_framework\/_bin\/Microsoft.IdentityModel.JsonWebTokens.dll.gz"
+    },
+    {
+      "InputSource": "obj\/Debug\/net5.0\/integrity\/IgFr6ndWw2UiLdOxlRfEFmxsvVSwM974jtmcjOXwdqc=.hash",
+      "Source": "\/Users\/michalpapinski\/Desktop\/aws_sample\/src\/Cloud\/Presentation\/FXbox.Cloud.Presentation.Agent\/obj\/Debug\/net5.0\/blazor\/unlinked\/Microsoft.IdentityModel.Tokens.dll",
+      "Target": "obj\/Debug\/net5.0\/compressed\/_framework\/_bin\/Microsoft.IdentityModel.Tokens.dll.gz"
+    },
+    {
+      "InputSource": "obj\/Debug\/net5.0\/integrity\/d_HSImS9U9Uk_vg1ZX9iBqCfIcJIYAFAuREgGAkUn-g=.hash",
+      "Source": "\/Users\/michalpapinski\/Desktop\/aws_sample\/src\/Cloud\/Presentation\/FXbox.Cloud.Presentation.Agent\/obj\/Debug\/net5.0\/blazor\/unlinked\/System.Security.Cryptography.Cng.dll",
+      "Target": "obj\/Debug\/net5.0\/compressed\/_framework\/_bin\/System.Security.Cryptography.Cng.dll.gz"
+    },
+    {
+      "InputSource": "obj\/Debug\/net5.0\/integrity\/oSqrhbtJYES0rsPPUeCKNNn2gFUixQKYJ9WFYqqyXAE=.hash",
+      "Source": "\/Users\/michalpapinski\/Desktop\/aws_sample\/src\/Cloud\/Presentation\/FXbox.Cloud.Presentation.Agent\/obj\/Debug\/net5.0\/blazor\/unlinked\/System.Security.Claims.dll",
+      "Target": "obj\/Debug\/net5.0\/compressed\/_framework\/_bin\/System.Security.Claims.dll.gz"
+    },
+    {
+      "InputSource": "obj\/Debug\/net5.0\/integrity\/RYDY0xklZSND7-Wa8NJvVaHs181lGQ3BwrRf03u_Nek=.hash",
+      "Source": "\/Users\/michalpapinski\/Desktop\/aws_sample\/src\/Cloud\/Presentation\/FXbox.Cloud.Presentation.Agent\/obj\/Debug\/net5.0\/blazor\/unlinked\/Microsoft.AspNetCore.Authentication.JwtBearer.dll",
+      "Target": "obj\/Debug\/net5.0\/compressed\/_framework\/_bin\/Microsoft.AspNetCore.Authentication.JwtBearer.dll.gz"
+    },
+    {
+      "InputSource": "obj\/Debug\/net5.0\/integrity\/P66ftDrXwc6ayND8uYzIk0CPQy1GjNZAPHx9RMhi3V4=.hash",
+      "Source": "\/Users\/michalpapinski\/Desktop\/aws_sample\/src\/Cloud\/Presentation\/FXbox.Cloud.Presentation.Agent\/obj\/Debug\/net5.0\/blazor\/unlinked\/Microsoft.Net.Http.Headers.dll",
+      "Target": "obj\/Debug\/net5.0\/compressed\/_framework\/_bin\/Microsoft.Net.Http.Headers.dll.gz"
+    },
+    {
+      "InputSource": "obj\/Debug\/net5.0\/integrity\/J2xQUZ4BD6tsrQkvGS5HDQfkTGMzmaS76TA9nJrtCpg=.hash",
+      "Source": "\/Users\/michalpapinski\/Desktop\/aws_sample\/src\/Cloud\/Presentation\/FXbox.Cloud.Presentation.Agent\/obj\/Debug\/net5.0\/blazor\/unlinked\/Microsoft.AspNetCore.Http.Features.dll",
+      "Target": "obj\/Debug\/net5.0\/compressed\/_framework\/_bin\/Microsoft.AspNetCore.Http.Features.dll.gz"
+    },
+    {
+      "InputSource": "obj\/Debug\/net5.0\/integrity\/0Wee3tHjAkD82NPmlhQnK76qFDY8uJg_2h8mEHxO_Bc=.hash",
+      "Source": "\/Users\/michalpapinski\/Desktop\/aws_sample\/src\/Cloud\/Presentation\/FXbox.Cloud.Presentation.Agent\/obj\/Debug\/net5.0\/blazor\/unlinked\/Microsoft.IdentityModel.Protocols.dll",
+      "Target": "obj\/Debug\/net5.0\/compressed\/_framework\/_bin\/Microsoft.IdentityModel.Protocols.dll.gz"
+    },
+    {
+      "InputSource": "obj\/Debug\/net5.0\/integrity\/kxLjA-0OnZ5SM45TmCeJyjCmzR44v3ObJrWDhKRPzXM=.hash",
+      "Source": "\/Users\/michalpapinski\/Desktop\/aws_sample\/src\/Cloud\/Presentation\/FXbox.Cloud.Presentation.Agent\/obj\/Debug\/net5.0\/blazor\/unlinked\/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll",
+      "Target": "obj\/Debug\/net5.0\/compressed\/_framework\/_bin\/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll.gz"
+    },
+    {
+      "InputSource": "obj\/Debug\/net5.0\/integrity\/iw51tdKcETC5QqlJLWett1iPlLZgUrRdZfkV7EoaD4k=.hash",
+      "Source": "\/Users\/michalpapinski\/Desktop\/aws_sample\/src\/Cloud\/Presentation\/FXbox.Cloud.Presentation.Agent\/obj\/Debug\/net5.0\/blazor\/unlinked\/Microsoft.AspNetCore.Authentication.Abstractions.dll",
+      "Target": "obj\/Debug\/net5.0\/compressed\/_framework\/_bin\/Microsoft.AspNetCore.Authentication.Abstractions.dll.gz"
+    },
+    {
+      "InputSource": "obj\/Debug\/net5.0\/integrity\/qFKmKNr9iAZiZxOVvLJBfMhkKfDy1GvY81fHh1hiphU=.hash",
+      "Source": "\/Users\/michalpapinski\/Desktop\/aws_sample\/src\/Cloud\/Presentation\/FXbox.Cloud.Presentation.Agent\/obj\/Debug\/net5.0\/blazor\/unlinked\/Microsoft.AspNetCore.Http.Abstractions.dll",
+      "Target": "obj\/Debug\/net5.0\/compressed\/_framework\/_bin\/Microsoft.AspNetCore.Http.Abstractions.dll.gz"
+    },
+    {
+      "InputSource": "obj\/Debug\/net5.0\/integrity\/_HmzoSBVSDm2v7oUQtD54A-uR-4DZAquHefTgTn7QJo=.hash",
+      "Source": "\/Users\/michalpapinski\/Desktop\/aws_sample\/src\/Cloud\/Presentation\/FXbox.Cloud.Presentation.Agent\/obj\/Debug\/net5.0\/blazor\/unlinked\/MongoDB.Driver.dll",
+      "Target": "obj\/Debug\/net5.0\/compressed\/_framework\/_bin\/MongoDB.Driver.dll.gz"
+    },
+    {
+      "InputSource": "obj\/Debug\/net5.0\/integrity\/GkdgksKzzMqkQjcwBrNYTyoHQcsUuT6rMRGR-0YST44=.hash",
+      "Source": "\/Users\/michalpapinski\/Desktop\/aws_sample\/src\/Cloud\/Presentation\/FXbox.Cloud.Presentation.Agent\/obj\/Debug\/net5.0\/blazor\/unlinked\/MongoDB.Libmongocrypt.dll",
+      "Target": "obj\/Debug\/net5.0\/compressed\/_framework\/_bin\/MongoDB.Libmongocrypt.dll.gz"
+    },
+    {
+      "InputSource": "obj\/Debug\/net5.0\/integrity\/BYXbpvTNGo3chSTuWJ4GViqMqsMGhZbzKWlEcA06sjE=.hash",
+      "Source": "\/Users\/michalpapinski\/Desktop\/aws_sample\/src\/Cloud\/Presentation\/FXbox.Cloud.Presentation.Agent\/obj\/Debug\/net5.0\/blazor\/unlinked\/MongoDB.Driver.Core.dll",
+      "Target": "obj\/Debug\/net5.0\/compressed\/_framework\/_bin\/MongoDB.Driver.Core.dll.gz"
+    },
+    {
+      "InputSource": "obj\/Debug\/net5.0\/integrity\/-LU0iM3EOR7E20FEpCe4ZtmZIk0C-UA_gWuSsB2ey5A=.hash",
+      "Source": "\/Users\/michalpapinski\/Desktop\/aws_sample\/src\/Cloud\/Presentation\/FXbox.Cloud.Presentation.Agent\/obj\/Debug\/net5.0\/blazor\/unlinked\/SharpCompress.dll",
+      "Target": "obj\/Debug\/net5.0\/compressed\/_framework\/_bin\/SharpCompress.dll.gz"
+    },
+    {
+      "InputSource": "obj\/Debug\/net5.0\/integrity\/A4_6-yKbXS2vs7Vr1quzSX26JTW4l3sDC1EazeKyye0=.hash",
+      "Source": "\/Users\/michalpapinski\/Desktop\/aws_sample\/src\/Cloud\/Presentation\/FXbox.Cloud.Presentation.Agent\/obj\/Debug\/net5.0\/blazor\/unlinked\/System.Text.Encoding.CodePages.dll",
+      "Target": "obj\/Debug\/net5.0\/compressed\/_framework\/_bin\/System.Text.Encoding.CodePages.dll.gz"
+    },
+    {
+      "InputSource": "obj\/Debug\/net5.0\/integrity\/gWqxqdNWccOfJcbLM_dhjMNj1xkEDo_YNJiZkDQnEGs=.hash",
+      "Source": "\/Users\/michalpapinski\/Desktop\/aws_sample\/src\/Cloud\/Presentation\/FXbox.Cloud.Presentation.Agent\/obj\/Debug\/net5.0\/blazor\/unlinked\/DnsClient.dll",
+      "Target": "obj\/Debug\/net5.0\/compressed\/_framework\/_bin\/DnsClient.dll.gz"
+    },
+    {
+      "InputSource": "obj\/Debug\/net5.0\/integrity\/r7N9d3ZA86mYYoZ2R39WCc9Od7-Utt_ZvaYSLzZmcaE=.hash",
+      "Source": "\/Users\/michalpapinski\/Desktop\/aws_sample\/src\/Cloud\/Presentation\/FXbox.Cloud.Presentation.Agent\/obj\/Debug\/net5.0\/blazor\/unlinked\/System.Security.Cryptography.Algorithms.dll",
+      "Target": "obj\/Debug\/net5.0\/compressed\/_framework\/_bin\/System.Security.Cryptography.Algorithms.dll.gz"
+    },
+    {
+      "InputSource": "obj\/Debug\/net5.0\/integrity\/fjyc0zApXADk8x8wh-MQcBs-1GmTVn_Vxio3OThwS-k=.hash",
+      "Source": "\/Users\/michalpapinski\/Desktop\/aws_sample\/src\/Cloud\/Presentation\/FXbox.Cloud.Presentation.Agent\/obj\/Debug\/net5.0\/blazor\/unlinked\/Microsoft.AspNetCore.Authorization.dll",
+      "Target": "obj\/Debug\/net5.0\/compressed\/_framework\/_bin\/Microsoft.AspNetCore.Authorization.dll.gz"
+    },
+    {
+      "InputSource": "obj\/Debug\/net5.0\/integrity\/2gMAC6_7xAltgI8KZyZGF1BMQ-d2Yk8e9DpbPloLhQc=.hash",
+      "Source": "\/Users\/michalpapinski\/Desktop\/aws_sample\/src\/Cloud\/Presentation\/FXbox.Cloud.Presentation.Agent\/obj\/Debug\/net5.0\/blazor\/unlinked\/System.Security.Principal.dll",
+      "Target": "obj\/Debug\/net5.0\/compressed\/_framework\/_bin\/System.Security.Principal.dll.gz"
+    },
+    {
+      "InputSource": "obj\/Debug\/net5.0\/integrity\/Os2JihsBzVRiNAGEXSigohmL5fDXnvgVuTcqOnkWJCk=.hash",
+      "Source": "\/Users\/michalpapinski\/Desktop\/aws_sample\/src\/Cloud\/Presentation\/FXbox.Cloud.Presentation.Agent\/obj\/Debug\/net5.0\/blazor\/unlinked\/Microsoft.AspNetCore.Metadata.dll",
+      "Target": "obj\/Debug\/net5.0\/compressed\/_framework\/_bin\/Microsoft.AspNetCore.Metadata.dll.gz"
+    },
+    {
+      "InputSource": "obj\/Debug\/net5.0\/integrity\/dhyb0lOXKA2y0Xrym7rJdy0slvQM_luUGSk6mD_0q8o=.hash",
+      "Source": "\/Users\/michalpapinski\/Desktop\/aws_sample\/src\/Cloud\/Presentation\/FXbox.Cloud.Presentation.Agent\/obj\/Debug\/net5.0\/blazor\/unlinked\/Microsoft.AspNetCore.Components.Web.dll",
+      "Target": "obj\/Debug\/net5.0\/compressed\/_framework\/_bin\/Microsoft.AspNetCore.Components.Web.dll.gz"
+    },
+    {
+      "InputSource": "obj\/Debug\/net5.0\/integrity\/9wi0kDjDIr2As0DGysE9JuDt-uTnuiip7mf4UlXg_BI=.hash",
+      "Source": "\/Users\/michalpapinski\/Desktop\/aws_sample\/src\/Cloud\/Presentation\/FXbox.Cloud.Presentation.Agent\/obj\/Debug\/net5.0\/blazor\/unlinked\/System.Linq.Expressions.dll",
+      "Target": "obj\/Debug\/net5.0\/compressed\/_framework\/_bin\/System.Linq.Expressions.dll.gz"
+    },
+    {
+      "InputSource": "obj\/Debug\/net5.0\/integrity\/_1Xm6QnGRMXcbyaBxPLSg6aWfXS9myMc5KQY_EwrjZU=.hash",
+      "Source": "\/Users\/michalpapinski\/Desktop\/aws_sample\/src\/Cloud\/Presentation\/FXbox.Cloud.Presentation.Agent\/obj\/Debug\/net5.0\/blazor\/unlinked\/Microsoft.AspNetCore.Components.Forms.dll",
+      "Target": "obj\/Debug\/net5.0\/compressed\/_framework\/_bin\/Microsoft.AspNetCore.Components.Forms.dll.gz"
+    },
+    {
+      "InputSource": "obj\/Debug\/net5.0\/integrity\/tmnkCmP9OzLUkpQ3LP7PRosi7gt5pyfEZCM6aqAokFI=.hash",
+      "Source": "\/Users\/michalpapinski\/Desktop\/aws_sample\/src\/Cloud\/Presentation\/FXbox.Cloud.Presentation.Agent\/obj\/Debug\/net5.0\/blazor\/unlinked\/System.ComponentModel.Annotations.dll",
+      "Target": "obj\/Debug\/net5.0\/compressed\/_framework\/_bin\/System.ComponentModel.Annotations.dll.gz"
+    },
+    {
+      "InputSource": "obj\/Debug\/net5.0\/integrity\/LIfCYwg_PHltTK4z3EnbSkA7m2cn8JS4jHVthdKrDF8=.hash",
+      "Source": "\/Users\/michalpapinski\/Desktop\/aws_sample\/src\/Cloud\/Presentation\/FXbox.Cloud.Presentation.Agent\/obj\/Debug\/net5.0\/blazor\/unlinked\/System.ComponentModel.DataAnnotations.dll",
+      "Target": "obj\/Debug\/net5.0\/compressed\/_framework\/_bin\/System.ComponentModel.DataAnnotations.dll.gz"
+    },
+    {
+      "InputSource": "obj\/Debug\/net5.0\/integrity\/JdUZMqdY3FjKbh9a-63PFtxp9q3sAfL7GDX7BVOiVCk=.hash",
+      "Source": "\/Users\/michalpapinski\/Desktop\/aws_sample\/src\/Cloud\/Presentation\/FXbox.Cloud.Presentation.Agent\/obj\/Debug\/net5.0\/blazor\/unlinked\/Microsoft.AspNetCore.Components.dll",
+      "Target": "obj\/Debug\/net5.0\/compressed\/_framework\/_bin\/Microsoft.AspNetCore.Components.dll.gz"
+    },
+    {
+      "InputSource": "obj\/Debug\/net5.0\/integrity\/j5QJ1kfdaGNztuV3Mt3g3soliZlv-iZA5H2spmGnlEc=.hash",
+      "Source": "\/Users\/michalpapinski\/Desktop\/aws_sample\/src\/Cloud\/Presentation\/FXbox.Cloud.Presentation.Agent\/obj\/Debug\/net5.0\/blazor\/unlinked\/System.Runtime.InteropServices.RuntimeInformation.dll",
+      "Target": "obj\/Debug\/net5.0\/compressed\/_framework\/_bin\/System.Runtime.InteropServices.RuntimeInformation.dll.gz"
+    },
+    {
+      "InputSource": "obj\/Debug\/net5.0\/integrity\/iRJn1bctufxFpdvL9HsDYr8vyHJ43sN8tu_e9uvVEbs=.hash",
+      "Source": "\/Users\/michalpapinski\/Desktop\/aws_sample\/src\/Cloud\/Presentation\/FXbox.Cloud.Presentation.Agent\/obj\/Debug\/net5.0\/blazor\/unlinked\/System.ObjectModel.dll",
+      "Target": "obj\/Debug\/net5.0\/compressed\/_framework\/_bin\/System.ObjectModel.dll.gz"
+    },
+    {
+      "InputSource": "obj\/Debug\/net5.0\/integrity\/RdBPwqgnAdTg7p1svJWuRNJXNqg0C-quM2upT5VUjCQ=.hash",
+      "Source": "\/Users\/michalpapinski\/Desktop\/aws_sample\/src\/Cloud\/Presentation\/FXbox.Cloud.Presentation.Agent\/obj\/Debug\/net5.0\/blazor\/unlinked\/System.ComponentModel.TypeConverter.dll",
+      "Target": "obj\/Debug\/net5.0\/compressed\/_framework\/_bin\/System.ComponentModel.TypeConverter.dll.gz"
+    },
+    {
+      "InputSource": "obj\/Debug\/net5.0\/integrity\/zmlPbeLHdFOL4rLdW_cfuO4TcyhPAYEWGWOcu44Y8ik=.hash",
+      "Source": "\/Users\/michalpapinski\/Desktop\/aws_sample\/src\/Cloud\/Presentation\/FXbox.Cloud.Presentation.Agent\/obj\/Debug\/net5.0\/blazor\/unlinked\/Microsoft.AspNetCore.Components.Authorization.dll",
+      "Target": "obj\/Debug\/net5.0\/compressed\/_framework\/_bin\/Microsoft.AspNetCore.Components.Authorization.dll.gz"
+    },
+    {
+      "InputSource": "obj\/Debug\/net5.0\/integrity\/sifIvl02zqfSiv67ZRAsSa_NCvhMgTGrIUNuK8LmCNM=.hash",
+      "Source": "\/Users\/michalpapinski\/Desktop\/aws_sample\/src\/Cloud\/Presentation\/FXbox.Cloud.Presentation.Agent\/obj\/Debug\/net5.0\/blazor\/unlinked\/Microsoft.AspNetCore.Components.WebAssembly.dll",
+      "Target": "obj\/Debug\/net5.0\/compressed\/_framework\/_bin\/Microsoft.AspNetCore.Components.WebAssembly.dll.gz"
+    },
+    {
+      "InputSource": "obj\/Debug\/net5.0\/integrity\/onuiVQFrmX3DDfjICPRTMce2RJoA0MaFlvhT-Lbt0so=.hash",
+      "Source": "\/Users\/michalpapinski\/Desktop\/aws_sample\/src\/Cloud\/Presentation\/FXbox.Cloud.Presentation.Agent\/obj\/Debug\/net5.0\/blazor\/unlinked\/Microsoft.Extensions.Configuration.dll",
+      "Target": "obj\/Debug\/net5.0\/compressed\/_framework\/_bin\/Microsoft.Extensions.Configuration.dll.gz"
+    },
+    {
+      "InputSource": "obj\/Debug\/net5.0\/integrity\/siunWGJXZDGNj803S0omCIC9Z1bF7V_OTou_O0JJ8hA=.hash",
+      "Source": "\/Users\/michalpapinski\/Desktop\/aws_sample\/src\/Cloud\/Presentation\/FXbox.Cloud.Presentation.Agent\/obj\/Debug\/net5.0\/blazor\/unlinked\/Microsoft.Extensions.Configuration.Json.dll",
+      "Target": "obj\/Debug\/net5.0\/compressed\/_framework\/_bin\/Microsoft.Extensions.Configuration.Json.dll.gz"
+    },
+    {
+      "InputSource": "obj\/Debug\/net5.0\/integrity\/BS61yiHxzwttZPj2Cp4hkAFzvnZ50K2rm9G-Ye6SAvU=.hash",
+      "Source": "\/Users\/michalpapinski\/Desktop\/aws_sample\/src\/Cloud\/Presentation\/FXbox.Cloud.Presentation.Agent\/obj\/Debug\/net5.0\/blazor\/unlinked\/Microsoft.Extensions.Configuration.FileExtensions.dll",
+      "Target": "obj\/Debug\/net5.0\/compressed\/_framework\/_bin\/Microsoft.Extensions.Configuration.FileExtensions.dll.gz"
+    },
+    {
+      "InputSource": "obj\/Debug\/net5.0\/integrity\/0ohVYRI6PuBfqKMapEmY5Oi3pImDZfhTLw5evJsfue0=.hash",
+      "Source": "\/Users\/michalpapinski\/Desktop\/aws_sample\/src\/Cloud\/Presentation\/FXbox.Cloud.Presentation.Agent\/obj\/Debug\/net5.0\/blazor\/unlinked\/System.IO.FileSystem.dll",
+      "Target": "obj\/Debug\/net5.0\/compressed\/_framework\/_bin\/System.IO.FileSystem.dll.gz"
+    },
+    {
+      "InputSource": "obj\/Debug\/net5.0\/integrity\/p4sXkXcUxlPDA-r40IckSZ0-k7zhF0EUpQ57dmxZW_8=.hash",
+      "Source": "\/Users\/michalpapinski\/Desktop\/aws_sample\/src\/Cloud\/Presentation\/FXbox.Cloud.Presentation.Agent\/obj\/Debug\/net5.0\/blazor\/unlinked\/Microsoft.Extensions.FileProviders.Physical.dll",
+      "Target": "obj\/Debug\/net5.0\/compressed\/_framework\/_bin\/Microsoft.Extensions.FileProviders.Physical.dll.gz"
+    },
+    {
+      "InputSource": "obj\/Debug\/net5.0\/integrity\/5vdR44YpzFJeJRtUB2XvzsSinXEV6ykSV6RBwVfJgac=.hash",
+      "Source": "\/Users\/michalpapinski\/Desktop\/aws_sample\/src\/Cloud\/Presentation\/FXbox.Cloud.Presentation.Agent\/obj\/Debug\/net5.0\/blazor\/unlinked\/System.Security.Cryptography.Primitives.dll",
+      "Target": "obj\/Debug\/net5.0\/compressed\/_framework\/_bin\/System.Security.Cryptography.Primitives.dll.gz"
+    },
+    {
+      "InputSource": "obj\/Debug\/net5.0\/integrity\/qWCFPou-baHZc_vApbi0rxG3O9e4C9D0hPgt0oJu9Ts=.hash",
+      "Source": "\/Users\/michalpapinski\/Desktop\/aws_sample\/src\/Cloud\/Presentation\/FXbox.Cloud.Presentation.Agent\/obj\/Debug\/net5.0\/blazor\/unlinked\/System.ComponentModel.Primitives.dll",
+      "Target": "obj\/Debug\/net5.0\/compressed\/_framework\/_bin\/System.ComponentModel.Primitives.dll.gz"
+    },
+    {
+      "InputSource": "obj\/Debug\/net5.0\/integrity\/K3YFmrW2bw2nAvgBqWJvZD2KN9q1vRVzOyp6AOSojMo=.hash",
+      "Source": "\/Users\/michalpapinski\/Desktop\/aws_sample\/src\/Cloud\/Presentation\/FXbox.Cloud.Presentation.Agent\/obj\/Debug\/net5.0\/blazor\/unlinked\/Microsoft.Extensions.FileSystemGlobbing.dll",
+      "Target": "obj\/Debug\/net5.0\/compressed\/_framework\/_bin\/Microsoft.Extensions.FileSystemGlobbing.dll.gz"
+    },
+    {
+      "InputSource": "obj\/Debug\/net5.0\/integrity\/w5_opwZzOg1NxSDigsUWo5_anKj-aoAT_MasNNfgObo=.hash",
+      "Source": "\/Users\/michalpapinski\/Desktop\/aws_sample\/src\/Cloud\/Presentation\/FXbox.Cloud.Presentation.Agent\/obj\/Debug\/net5.0\/blazor\/unlinked\/System.IO.FileSystem.Watcher.dll",
+      "Target": "obj\/Debug\/net5.0\/compressed\/_framework\/_bin\/System.IO.FileSystem.Watcher.dll.gz"
+    },
+    {
+      "InputSource": "obj\/Debug\/net5.0\/integrity\/qYC4eJgtX_fjUtLQI9jfkk0KtCXAFWYP7O6N0WtNuQY=.hash",
+      "Source": "\/Users\/michalpapinski\/Desktop\/aws_sample\/src\/Cloud\/Presentation\/FXbox.Cloud.Presentation.Agent\/obj\/Debug\/net5.0\/blazor\/unlinked\/Microsoft.Extensions.FileProviders.Abstractions.dll",
+      "Target": "obj\/Debug\/net5.0\/compressed\/_framework\/_bin\/Microsoft.Extensions.FileProviders.Abstractions.dll.gz"
+    },
+    {
+      "InputSource": "obj\/Debug\/net5.0\/integrity\/MhSyzAbnKyBBwg462UHFJK5YIXLiUL4pzRZXT95v97w=.hash",
+      "Source": "\/Users\/michalpapinski\/Desktop\/aws_sample\/src\/Cloud\/Presentation\/FXbox.Cloud.Presentation.Agent\/obj\/Debug\/net5.0\/blazor\/unlinked\/Microsoft.JSInterop.dll",
+      "Target": "obj\/Debug\/net5.0\/compressed\/_framework\/_bin\/Microsoft.JSInterop.dll.gz"
+    },
+    {
+      "InputSource": "obj\/Debug\/net5.0\/integrity\/dwm_rKImjhxtOmHHVpSxOgl2oh2R26xOWihLaZSv7Vs=.hash",
+      "Source": "\/Users\/michalpapinski\/Desktop\/aws_sample\/src\/Cloud\/Presentation\/FXbox.Cloud.Presentation.Agent\/obj\/Debug\/net5.0\/blazor\/unlinked\/Microsoft.JSInterop.WebAssembly.dll",
+      "Target": "obj\/Debug\/net5.0\/compressed\/_framework\/_bin\/Microsoft.JSInterop.WebAssembly.dll.gz"
+    },
+    {
+      "InputSource": "obj\/Debug\/net5.0\/integrity\/bu2TOMm0VqB14n4W6w3pSLwHGZbDf8BNl-SZO93kE0w=.hash",
+      "Source": "\/Users\/michalpapinski\/Desktop\/aws_sample\/src\/Cloud\/Presentation\/FXbox.Cloud.Presentation.Agent\/obj\/Debug\/net5.0\/blazor\/unlinked\/Microsoft.AspNetCore.Components.WebAssembly.Authentication.dll",
+      "Target": "obj\/Debug\/net5.0\/compressed\/_framework\/_bin\/Microsoft.AspNetCore.Components.WebAssembly.Authentication.dll.gz"
+    },
+    {
+      "InputSource": "obj\/Debug\/net5.0\/integrity\/mivhsX6QKN70WJ-0H-EHYw9e2QFGwg94hKDOm5vEmxc=.hash",
+      "Source": "\/Users\/michalpapinski\/Desktop\/aws_sample\/src\/Cloud\/Presentation\/FXbox.Cloud.Presentation.Agent\/obj\/Debug\/net5.0\/blazor\/unlinked\/FXbox.Cloud.Presentation.Agent.pdb",
+      "Target": "obj\/Debug\/net5.0\/compressed\/_framework\/_bin\/FXbox.Cloud.Presentation.Agent.pdb.gz"
+    },
+    {
+      "InputSource": "obj\/Debug\/net5.0\/integrity\/pLKeifuD4B0w8iDYCJSMJJfEnpGdHIQB9qdWfyi-Udw=.hash",
+      "Source": "\/Users\/michalpapinski\/Desktop\/aws_sample\/src\/Cloud\/Presentation\/FXbox.Cloud.Presentation.Agent\/obj\/Debug\/net5.0\/blazor\/unlinked\/FXbox.Cloud.Shared.pdb",
+      "Target": "obj\/Debug\/net5.0\/compressed\/_framework\/_bin\/FXbox.Cloud.Shared.pdb.gz"
+    },
+    {
+      "InputSource": "obj\/Debug\/net5.0\/integrity\/mPoqx7XczFHBWk3gRNn0hc9ekG1OvkKY4XiKRY5Mj5U=.hash",
+      "Source": "\/Users\/michalpapinski\/.nuget\/packages\/microsoft.aspnetcore.components.webassembly.runtime\/3.2.0\/tools\/dotnetwasm\/wasm\/dotnet.3.2.0.js",
+      "Target": "obj\/Debug\/net5.0\/compressed\/_framework\/wasm\/dotnet.3.2.0.js.gz"
+    },
+    {
+      "InputSource": "obj\/Debug\/net5.0\/integrity\/3S0qzYaBEKOBXarzVLNzNAFXlwJr6nI3lFlYUpQTPH8=.hash",
+      "Source": "\/Users\/michalpapinski\/.nuget\/packages\/microsoft.aspnetcore.components.webassembly.runtime\/3.2.0\/tools\/dotnetwasm\/wasm\/dotnet.timezones.dat",
+      "Target": "obj\/Debug\/net5.0\/compressed\/_framework\/wasm\/dotnet.timezones.dat.gz"
+    },
+    {
+      "InputSource": "obj\/Debug\/net5.0\/integrity\/UC-3Rm1NkdNdlIrzYARo_dO-HDlS5mhPxo0IQv7kma8=.hash",
+      "Source": "\/Users\/michalpapinski\/.nuget\/packages\/microsoft.aspnetcore.components.webassembly.runtime\/3.2.0\/tools\/dotnetwasm\/wasm\/dotnet.wasm",
+      "Target": "obj\/Debug\/net5.0\/compressed\/_framework\/wasm\/dotnet.wasm.gz"
+    },
+    {
+      "InputSource": "obj\/Debug\/net5.0\/integrity\/oU0moF6IIkna1pMoSD6Ze63s6aHfjCtUflz7xDmENPg=.hash",
+      "Source": "\/Users\/michalpapinski\/.nuget\/packages\/microsoft.aspnetcore.components.webassembly.build\/3.2.0\/tools\/blazor\/blazor.webassembly.js",
+      "Target": "obj\/Debug\/net5.0\/compressed\/_framework\/blazor.webassembly.js.gz"
+    },
+    {
+      "InputSource": "obj\/Debug\/net5.0\/integrity\/PccfE1hXGvUdZ360vbFqVTqlH1aoW4VC7PzywNojyno=.hash",
+      "Source": "\/Users\/michalpapinski\/Desktop\/aws_sample\/src\/Cloud\/Presentation\/FXbox.Cloud.Presentation.Agent\/obj\/Debug\/net5.0\/blazor\/blazor.boot.json",
+      "Target": "obj\/Debug\/net5.0\/compressed\/_framework\/blazor.boot.json.gz"
+    }
+  ]
+}
