@@ -1,0 +1,16 @@
+@page "/agent/{AgentIp}"
+@using FXbox.Cloud.Presentation.Agent.Interfaces
+@inject IAgentService AgentService
+
+<h1>Agent Node: @AgentIp</h1>
+
+<p>Control selected agent node.</p>
+
+<br>
+
+
+
+@code {
+    [Parameter]
+    public string AgentIp { get; set; }
+}

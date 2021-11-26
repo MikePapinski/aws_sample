@@ -5,6 +5,8 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using System.Net.Http;
 using System.Threading.Tasks;
+using FXbox.Cloud.Presentation.Agent.Interfaces;
+using FXbox.Cloud.Presentation.Agent.Services;
 
 namespace FXbox.Cloud.Presentation.Agent
 {
@@ -25,6 +27,11 @@ namespace FXbox.Cloud.Presentation.Agent
 
                     return handler;
                 });
+            
+            builder.Services.AddSingleton<IAgentService, AgentService>();
+            builder.Services.AddSingleton<IAgentsService, AgentsService>();
+            builder.Services.AddSingleton<IUsersService, UsersService>();
+            builder.Services.AddSingleton<ILogsService, LogsService>();
 
             builder.Services.AddScoped(sp => sp.GetService<IHttpClientFactory>().CreateClient("api"));
 

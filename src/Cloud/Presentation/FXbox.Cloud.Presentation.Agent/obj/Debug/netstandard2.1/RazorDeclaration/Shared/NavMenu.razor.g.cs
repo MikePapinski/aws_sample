@@ -97,7 +97,7 @@ using System.Net.Http.Json;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 33 "/Users/michalpapinski/Desktop/aws_sample/src/Cloud/Presentation/FXbox.Cloud.Presentation.Agent/Shared/NavMenu.razor"
+#line 48 "/Users/michalpapinski/Desktop/aws_sample/src/Cloud/Presentation/FXbox.Cloud.Presentation.Agent/Shared/NavMenu.razor"
        
     private bool collapseNavMenu = true;
 

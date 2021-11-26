@@ -1,5 +1,5 @@
 {
-  "FilePath": "/Users/michalpapinski/Desktop/BlazorSecurityDemo/FXbox.Cloud.Presentation.Agent/FXbox.Cloud.Presentation.Agent.csproj",
+  "FilePath": "/Users/michalpapinski/Desktop/aws_sample/src/Cloud/Presentation/FXbox.Cloud.Presentation.Agent/FXbox.Cloud.Presentation.Agent.csproj",
   "Configuration": {
     "ConfigurationName": "Default",
     "LanguageVersion": "3.0",
@@ -8,7 +8,7 @@
   "ProjectWorkspaceState": {
     "TagHelpers": [
       {
-        "HashCode": 2069424754,
+        "HashCode": -91613975,
         "Kind": "Components.Component",
         "Name": "FXbox.Cloud.Presentation.Agent.App",
         "AssemblyName": "FXbox.Cloud.Presentation.Agent",
@@ -24,7 +24,7 @@
         }
       },
       {
-        "HashCode": 83309290,
+        "HashCode": 177078892,
         "Kind": "Components.Component",
         "Name": "FXbox.Cloud.Presentation.Agent.App",
         "AssemblyName": "FXbox.Cloud.Presentation.Agent",
@@ -41,7 +41,73 @@
         }
       },
       {
-        "HashCode": -1503283853,
+        "HashCode": -1524683512,
+        "Kind": "Components.Component",
+        "Name": "FXbox.Cloud.Presentation.Agent.Pages.Users",
+        "AssemblyName": "FXbox.Cloud.Presentation.Agent",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Users"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "FXbox.Cloud.Presentation.Agent.Pages.Users"
+        }
+      },
+      {
+        "HashCode": 1829549412,
+        "Kind": "Components.Component",
+        "Name": "FXbox.Cloud.Presentation.Agent.Pages.Users",
+        "AssemblyName": "FXbox.Cloud.Presentation.Agent",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "FXbox.Cloud.Presentation.Agent.Pages.Users"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "FXbox.Cloud.Presentation.Agent.Pages.Users",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": -1089108183,
+        "Kind": "Components.Component",
+        "Name": "FXbox.Cloud.Presentation.Agent.Pages.FetchData",
+        "AssemblyName": "FXbox.Cloud.Presentation.Agent",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "FetchData"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "FXbox.Cloud.Presentation.Agent.Pages.FetchData"
+        }
+      },
+      {
+        "HashCode": 1646826201,
+        "Kind": "Components.Component",
+        "Name": "FXbox.Cloud.Presentation.Agent.Pages.FetchData",
+        "AssemblyName": "FXbox.Cloud.Presentation.Agent",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "FXbox.Cloud.Presentation.Agent.Pages.FetchData"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "FXbox.Cloud.Presentation.Agent.Pages.FetchData",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": 1701039598,
         "Kind": "Components.Component",
         "Name": "FXbox.Cloud.Presentation.Agent.Pages.Authentication",
         "AssemblyName": "FXbox.Cloud.Presentation.Agent",
@@ -67,7 +133,7 @@
         }
       },
       {
-        "HashCode": 2134677959,
+        "HashCode": 287976034,
         "Kind": "Components.Component",
         "Name": "FXbox.Cloud.Presentation.Agent.Pages.Authentication",
         "AssemblyName": "FXbox.Cloud.Presentation.Agent",
@@ -94,106 +160,40 @@
         }
       },
       {
-        "HashCode": 1839844845,
+        "HashCode": 2064191946,
         "Kind": "Components.Component",
-        "Name": "FXbox.Cloud.Presentation.Agent.Pages.Claims",
+        "Name": "FXbox.Cloud.Presentation.Agent.Pages.Logs",
         "AssemblyName": "FXbox.Cloud.Presentation.Agent",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "Claims"
+            "TagName": "Logs"
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "FXbox.Cloud.Presentation.Agent.Pages.Claims"
+          "Common.TypeName": "FXbox.Cloud.Presentation.Agent.Pages.Logs"
         }
       },
       {
-        "HashCode": -1437503780,
+        "HashCode": 475621332,
         "Kind": "Components.Component",
-        "Name": "FXbox.Cloud.Presentation.Agent.Pages.Claims",
+        "Name": "FXbox.Cloud.Presentation.Agent.Pages.Logs",
         "AssemblyName": "FXbox.Cloud.Presentation.Agent",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "FXbox.Cloud.Presentation.Agent.Pages.Claims"
+            "TagName": "FXbox.Cloud.Presentation.Agent.Pages.Logs"
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "FXbox.Cloud.Presentation.Agent.Pages.Claims",
+          "Common.TypeName": "FXbox.Cloud.Presentation.Agent.Pages.Logs",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
       {
-        "HashCode": -1785707041,
-        "Kind": "Components.Component",
-        "Name": "FXbox.Cloud.Presentation.Agent.Pages.Counter",
-        "AssemblyName": "FXbox.Cloud.Presentation.Agent",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "Counter"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "FXbox.Cloud.Presentation.Agent.Pages.Counter"
-        }
-      },
-      {
-        "HashCode": 1730890425,
-        "Kind": "Components.Component",
-        "Name": "FXbox.Cloud.Presentation.Agent.Pages.Counter",
-        "AssemblyName": "FXbox.Cloud.Presentation.Agent",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "FXbox.Cloud.Presentation.Agent.Pages.Counter"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "FXbox.Cloud.Presentation.Agent.Pages.Counter",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
-        "HashCode": -307577902,
-        "Kind": "Components.Component",
-        "Name": "FXbox.Cloud.Presentation.Agent.Pages.FetchData",
-        "AssemblyName": "FXbox.Cloud.Presentation.Agent",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "FetchData"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "FXbox.Cloud.Presentation.Agent.Pages.FetchData"
-        }
-      },
-      {
-        "HashCode": 2024383800,
-        "Kind": "Components.Component",
-        "Name": "FXbox.Cloud.Presentation.Agent.Pages.FetchData",
-        "AssemblyName": "FXbox.Cloud.Presentation.Agent",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "FXbox.Cloud.Presentation.Agent.Pages.FetchData"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "FXbox.Cloud.Presentation.Agent.Pages.FetchData",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
-        "HashCode": 1889265491,
+        "HashCode": -89943260,
         "Kind": "Components.Component",
         "Name": "FXbox.Cloud.Presentation.Agent.Pages.Index",
         "AssemblyName": "FXbox.Cloud.Presentation.Agent",
@@ -209,7 +209,7 @@
         }
       },
       {
-        "HashCode": 1186637531,
+        "HashCode": -2042232667,
         "Kind": "Components.Component",
         "Name": "FXbox.Cloud.Presentation.Agent.Pages.Index",
         "AssemblyName": "FXbox.Cloud.Presentation.Agent",
@@ -226,40 +226,212 @@
         }
       },
       {
-        "HashCode": 1957321320,
+        "HashCode": -701322412,
         "Kind": "Components.Component",
-        "Name": "FXbox.Cloud.Presentation.Agent.Shared.LoginDisplay",
+        "Name": "FXbox.Cloud.Presentation.Agent.Pages.Counter",
         "AssemblyName": "FXbox.Cloud.Presentation.Agent",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "LoginDisplay"
+            "TagName": "Counter"
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "FXbox.Cloud.Presentation.Agent.Shared.LoginDisplay"
+          "Common.TypeName": "FXbox.Cloud.Presentation.Agent.Pages.Counter"
         }
       },
       {
-        "HashCode": 1668344584,
+        "HashCode": -912676953,
         "Kind": "Components.Component",
-        "Name": "FXbox.Cloud.Presentation.Agent.Shared.LoginDisplay",
+        "Name": "FXbox.Cloud.Presentation.Agent.Pages.Counter",
         "AssemblyName": "FXbox.Cloud.Presentation.Agent",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "FXbox.Cloud.Presentation.Agent.Shared.LoginDisplay"
+            "TagName": "FXbox.Cloud.Presentation.Agent.Pages.Counter"
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "FXbox.Cloud.Presentation.Agent.Shared.LoginDisplay",
+          "Common.TypeName": "FXbox.Cloud.Presentation.Agent.Pages.Counter",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
       {
-        "HashCode": 1132609820,
+        "HashCode": 234816939,
+        "Kind": "Components.Component",
+        "Name": "FXbox.Cloud.Presentation.Agent.Pages.Claims",
+        "AssemblyName": "FXbox.Cloud.Presentation.Agent",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Claims"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "FXbox.Cloud.Presentation.Agent.Pages.Claims"
+        }
+      },
+      {
+        "HashCode": 1286358772,
+        "Kind": "Components.Component",
+        "Name": "FXbox.Cloud.Presentation.Agent.Pages.Claims",
+        "AssemblyName": "FXbox.Cloud.Presentation.Agent",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "FXbox.Cloud.Presentation.Agent.Pages.Claims"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "FXbox.Cloud.Presentation.Agent.Pages.Claims",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": -347063533,
+        "Kind": "Components.Component",
+        "Name": "FXbox.Cloud.Presentation.Agent.Pages.Agents",
+        "AssemblyName": "FXbox.Cloud.Presentation.Agent",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Agents"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "FXbox.Cloud.Presentation.Agent.Pages.Agents"
+        }
+      },
+      {
+        "HashCode": -121312333,
+        "Kind": "Components.Component",
+        "Name": "FXbox.Cloud.Presentation.Agent.Pages.Agents",
+        "AssemblyName": "FXbox.Cloud.Presentation.Agent",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "FXbox.Cloud.Presentation.Agent.Pages.Agents"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "FXbox.Cloud.Presentation.Agent.Pages.Agents",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": -25860588,
+        "Kind": "Components.Component",
+        "Name": "FXbox.Cloud.Presentation.Agent.Pages.Agent",
+        "AssemblyName": "FXbox.Cloud.Presentation.Agent",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Agent"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "AgentIp",
+            "TypeName": "System.String",
+            "Metadata": {
+              "Common.PropertyName": "AgentIp"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "FXbox.Cloud.Presentation.Agent.Pages.Agent"
+        }
+      },
+      {
+        "HashCode": -938109646,
+        "Kind": "Components.Component",
+        "Name": "FXbox.Cloud.Presentation.Agent.Pages.Agent",
+        "AssemblyName": "FXbox.Cloud.Presentation.Agent",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "FXbox.Cloud.Presentation.Agent.Pages.Agent"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "AgentIp",
+            "TypeName": "System.String",
+            "Metadata": {
+              "Common.PropertyName": "AgentIp"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "FXbox.Cloud.Presentation.Agent.Pages.Agent",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": -381357282,
+        "Kind": "Components.Component",
+        "Name": "FXbox.Cloud.Presentation.Agent.Shared.SurveyPrompt",
+        "AssemblyName": "FXbox.Cloud.Presentation.Agent",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "SurveyPrompt"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "Title",
+            "TypeName": "System.String",
+            "Metadata": {
+              "Common.PropertyName": "Title"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "FXbox.Cloud.Presentation.Agent.Shared.SurveyPrompt"
+        }
+      },
+      {
+        "HashCode": -1151513,
+        "Kind": "Components.Component",
+        "Name": "FXbox.Cloud.Presentation.Agent.Shared.SurveyPrompt",
+        "AssemblyName": "FXbox.Cloud.Presentation.Agent",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "FXbox.Cloud.Presentation.Agent.Shared.SurveyPrompt"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "Title",
+            "TypeName": "System.String",
+            "Metadata": {
+              "Common.PropertyName": "Title"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "FXbox.Cloud.Presentation.Agent.Shared.SurveyPrompt",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": 1085926208,
         "Kind": "Components.Component",
         "Name": "FXbox.Cloud.Presentation.Agent.Shared.MainLayout",
         "AssemblyName": "FXbox.Cloud.Presentation.Agent",
@@ -287,7 +459,7 @@
         }
       },
       {
-        "HashCode": 2077797436,
+        "HashCode": 976657851,
         "Kind": "Components.Component",
         "Name": "FXbox.Cloud.Presentation.Agent.Shared.MainLayout",
         "AssemblyName": "FXbox.Cloud.Presentation.Agent",
@@ -316,7 +488,7 @@
         }
       },
       {
-        "HashCode": 1697618508,
+        "HashCode": 281508530,
         "Kind": "Components.ChildContent",
         "Name": "FXbox.Cloud.Presentation.Agent.Shared.MainLayout.Body",
         "AssemblyName": "FXbox.Cloud.Presentation.Agent",
@@ -335,7 +507,7 @@
         }
       },
       {
-        "HashCode": 553677569,
+        "HashCode": 1198359751,
         "Kind": "Components.ChildContent",
         "Name": "FXbox.Cloud.Presentation.Agent.Shared.MainLayout.Body",
         "AssemblyName": "FXbox.Cloud.Presentation.Agent",
@@ -355,7 +527,40 @@
         }
       },
       {
-        "HashCode": 204560841,
+        "HashCode": 434979185,
+        "Kind": "Components.Component",
+        "Name": "FXbox.Cloud.Presentation.Agent.Shared.LoginDisplay",
+        "AssemblyName": "FXbox.Cloud.Presentation.Agent",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "LoginDisplay"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "FXbox.Cloud.Presentation.Agent.Shared.LoginDisplay"
+        }
+      },
+      {
+        "HashCode": -702535923,
+        "Kind": "Components.Component",
+        "Name": "FXbox.Cloud.Presentation.Agent.Shared.LoginDisplay",
+        "AssemblyName": "FXbox.Cloud.Presentation.Agent",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "FXbox.Cloud.Presentation.Agent.Shared.LoginDisplay"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "FXbox.Cloud.Presentation.Agent.Shared.LoginDisplay",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": 1193211545,
         "Kind": "Components.Component",
         "Name": "FXbox.Cloud.Presentation.Agent.Shared.NavMenu",
         "AssemblyName": "FXbox.Cloud.Presentation.Agent",
@@ -371,7 +576,7 @@
         }
       },
       {
-        "HashCode": -315608696,
+        "HashCode": 1404573565,
         "Kind": "Components.Component",
         "Name": "FXbox.Cloud.Presentation.Agent.Shared.NavMenu",
         "AssemblyName": "FXbox.Cloud.Presentation.Agent",
@@ -388,7 +593,7 @@
         }
       },
       {
-        "HashCode": 2087652562,
+        "HashCode": 1429796630,
         "Kind": "Components.Component",
         "Name": "FXbox.Cloud.Presentation.Agent.Shared.RedirectToLogin",
         "AssemblyName": "FXbox.Cloud.Presentation.Agent",
@@ -404,7 +609,7 @@
         }
       },
       {
-        "HashCode": -1069024459,
+        "HashCode": 121017496,
         "Kind": "Components.Component",
         "Name": "FXbox.Cloud.Presentation.Agent.Shared.RedirectToLogin",
         "AssemblyName": "FXbox.Cloud.Presentation.Agent",
@@ -417,59 +622,6 @@
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
           "Common.TypeName": "FXbox.Cloud.Presentation.Agent.Shared.RedirectToLogin",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
-        "HashCode": -1441776731,
-        "Kind": "Components.Component",
-        "Name": "FXbox.Cloud.Presentation.Agent.Shared.SurveyPrompt",
-        "AssemblyName": "FXbox.Cloud.Presentation.Agent",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "SurveyPrompt"
-          }
-        ],
-        "BoundAttributes": [
-          {
-            "Kind": "Components.Component",
-            "Name": "Title",
-            "TypeName": "System.String",
-            "Metadata": {
-              "Common.PropertyName": "Title"
-            }
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "FXbox.Cloud.Presentation.Agent.Shared.SurveyPrompt"
-        }
-      },
-      {
-        "HashCode": -684611172,
-        "Kind": "Components.Component",
-        "Name": "FXbox.Cloud.Presentation.Agent.Shared.SurveyPrompt",
-        "AssemblyName": "FXbox.Cloud.Presentation.Agent",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "FXbox.Cloud.Presentation.Agent.Shared.SurveyPrompt"
-          }
-        ],
-        "BoundAttributes": [
-          {
-            "Kind": "Components.Component",
-            "Name": "Title",
-            "TypeName": "System.String",
-            "Metadata": {
-              "Common.PropertyName": "Title"
-            }
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "FXbox.Cloud.Presentation.Agent.Shared.SurveyPrompt",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
@@ -14192,63 +14344,83 @@
   "RootNamespace": "FXbox.Cloud.Presentation.Agent",
   "Documents": [
     {
-      "FilePath": "/Users/michalpapinski/Desktop/BlazorSecurityDemo/FXbox.Cloud.Presentation.Agent/_Imports.razor",
-      "TargetPath": "_Imports.razor",
-      "FileKind": "componentImport"
-    },
-    {
-      "FilePath": "/Users/michalpapinski/Desktop/BlazorSecurityDemo/FXbox.Cloud.Presentation.Agent/Shared/SurveyPrompt.razor",
-      "TargetPath": "Shared\\SurveyPrompt.razor",
+      "FilePath": "/Users/michalpapinski/Desktop/aws_sample/src/Cloud/Presentation/FXbox.Cloud.Presentation.Agent/Pages/Users.razor",
+      "TargetPath": "Pages\\Users.razor",
       "FileKind": "component"
     },
     {
-      "FilePath": "/Users/michalpapinski/Desktop/BlazorSecurityDemo/FXbox.Cloud.Presentation.Agent/Pages/FetchData.razor",
+      "FilePath": "/Users/michalpapinski/Desktop/aws_sample/src/Cloud/Presentation/FXbox.Cloud.Presentation.Agent/Pages/FetchData.razor",
       "TargetPath": "Pages\\FetchData.razor",
       "FileKind": "component"
     },
     {
-      "FilePath": "/Users/michalpapinski/Desktop/BlazorSecurityDemo/FXbox.Cloud.Presentation.Agent/App.razor",
-      "TargetPath": "App.razor",
-      "FileKind": "component"
-    },
-    {
-      "FilePath": "/Users/michalpapinski/Desktop/BlazorSecurityDemo/FXbox.Cloud.Presentation.Agent/Shared/MainLayout.razor",
-      "TargetPath": "Shared\\MainLayout.razor",
-      "FileKind": "component"
-    },
-    {
-      "FilePath": "/Users/michalpapinski/Desktop/BlazorSecurityDemo/FXbox.Cloud.Presentation.Agent/Shared/NavMenu.razor",
-      "TargetPath": "Shared\\NavMenu.razor",
-      "FileKind": "component"
-    },
-    {
-      "FilePath": "/Users/michalpapinski/Desktop/BlazorSecurityDemo/FXbox.Cloud.Presentation.Agent/Pages/Counter.razor",
-      "TargetPath": "Pages\\Counter.razor",
-      "FileKind": "component"
-    },
-    {
-      "FilePath": "/Users/michalpapinski/Desktop/BlazorSecurityDemo/FXbox.Cloud.Presentation.Agent/Pages/Authentication.razor",
+      "FilePath": "/Users/michalpapinski/Desktop/aws_sample/src/Cloud/Presentation/FXbox.Cloud.Presentation.Agent/Pages/Authentication.razor",
       "TargetPath": "Pages\\Authentication.razor",
       "FileKind": "component"
     },
     {
-      "FilePath": "/Users/michalpapinski/Desktop/BlazorSecurityDemo/FXbox.Cloud.Presentation.Agent/Pages/Claims.razor",
-      "TargetPath": "Pages\\Claims.razor",
+      "FilePath": "/Users/michalpapinski/Desktop/aws_sample/src/Cloud/Presentation/FXbox.Cloud.Presentation.Agent/Shared/NavMenu.razor",
+      "TargetPath": "Shared\\NavMenu.razor",
       "FileKind": "component"
     },
     {
-      "FilePath": "/Users/michalpapinski/Desktop/BlazorSecurityDemo/FXbox.Cloud.Presentation.Agent/Shared/RedirectToLogin.razor",
+      "FilePath": "/Users/michalpapinski/Desktop/aws_sample/src/Cloud/Presentation/FXbox.Cloud.Presentation.Agent/Pages/Agents.razor",
+      "TargetPath": "Pages\\Agents.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "/Users/michalpapinski/Desktop/aws_sample/src/Cloud/Presentation/FXbox.Cloud.Presentation.Agent/Shared/RedirectToLogin.razor",
       "TargetPath": "Shared\\RedirectToLogin.razor",
       "FileKind": "component"
     },
     {
-      "FilePath": "/Users/michalpapinski/Desktop/BlazorSecurityDemo/FXbox.Cloud.Presentation.Agent/Shared/LoginDisplay.razor",
-      "TargetPath": "Shared\\LoginDisplay.razor",
+      "FilePath": "/Users/michalpapinski/Desktop/aws_sample/src/Cloud/Presentation/FXbox.Cloud.Presentation.Agent/Pages/Logs.razor",
+      "TargetPath": "Pages\\Logs.razor",
       "FileKind": "component"
     },
     {
-      "FilePath": "/Users/michalpapinski/Desktop/BlazorSecurityDemo/FXbox.Cloud.Presentation.Agent/Pages/Index.razor",
+      "FilePath": "/Users/michalpapinski/Desktop/aws_sample/src/Cloud/Presentation/FXbox.Cloud.Presentation.Agent/_Imports.razor",
+      "TargetPath": "_Imports.razor",
+      "FileKind": "componentImport"
+    },
+    {
+      "FilePath": "/Users/michalpapinski/Desktop/aws_sample/src/Cloud/Presentation/FXbox.Cloud.Presentation.Agent/Pages/Index.razor",
       "TargetPath": "Pages\\Index.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "/Users/michalpapinski/Desktop/aws_sample/src/Cloud/Presentation/FXbox.Cloud.Presentation.Agent/Shared/MainLayout.razor",
+      "TargetPath": "Shared\\MainLayout.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "/Users/michalpapinski/Desktop/aws_sample/src/Cloud/Presentation/FXbox.Cloud.Presentation.Agent/Pages/Counter.razor",
+      "TargetPath": "Pages\\Counter.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "/Users/michalpapinski/Desktop/aws_sample/src/Cloud/Presentation/FXbox.Cloud.Presentation.Agent/Pages/Agent.razor",
+      "TargetPath": "Pages\\Agent.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "/Users/michalpapinski/Desktop/aws_sample/src/Cloud/Presentation/FXbox.Cloud.Presentation.Agent/Pages/Claims.razor",
+      "TargetPath": "Pages\\Claims.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "/Users/michalpapinski/Desktop/aws_sample/src/Cloud/Presentation/FXbox.Cloud.Presentation.Agent/App.razor",
+      "TargetPath": "App.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "/Users/michalpapinski/Desktop/aws_sample/src/Cloud/Presentation/FXbox.Cloud.Presentation.Agent/Shared/SurveyPrompt.razor",
+      "TargetPath": "Shared\\SurveyPrompt.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "/Users/michalpapinski/Desktop/aws_sample/src/Cloud/Presentation/FXbox.Cloud.Presentation.Agent/Shared/LoginDisplay.razor",
+      "TargetPath": "Shared\\LoginDisplay.razor",
       "FileKind": "component"
     }
   ],

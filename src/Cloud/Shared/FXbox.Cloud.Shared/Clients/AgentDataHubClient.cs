@@ -51,7 +51,7 @@ namespace FXbox.Cloud.Shared.Clients
         // {
         //     MessageReceived?.Invoke(this, new AgentWorkerControlRequestEventArgs(log));
         // }
-        //
+        
         // public event MessageControlRequestReceivedEventHandler MessageReceived;
         
         public async Task StopAsync()

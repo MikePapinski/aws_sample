@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "MBZ9MB1pEPYF8P1dl8RIzY0cgMDX9bcoBv3T/afr4Xakoue3UDGYZJ53YMYReof4OeKoGb26Fs8u3UsZQ+2Cqg==",
+  "dgSpecHash": "vkokf5+m0JPPiuocjZOTEE2/BJt9guIn9kTOho3r+rHgIe5+4ho2iA2XSMFHrRfsG2F/G3SABilNTsi3czzEiA==",
   "success": true,
   "projectFilePath": "/Users/michalpapinski/Desktop/aws_sample/src/Cloud/Services/FXbox.Cloud.Services.Agents/FXbox.Cloud.Services.Agents.csproj",
   "expectedPackageFiles": [

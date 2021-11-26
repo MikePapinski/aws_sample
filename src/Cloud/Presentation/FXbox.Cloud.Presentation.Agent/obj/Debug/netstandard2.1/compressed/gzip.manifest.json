@@ -1,7 +1,7 @@
 {
   "FilesToCompress": [
     {
-      "InputSource": "obj\/Debug\/netstandard2.1\/integrity\/Bq_Ml6wRgFxrX8J2e5XPnbaEE_Gg8OzccvgV9_CactI=.hash",
+      "InputSource": "obj\/Debug\/netstandard2.1\/integrity\/Z5LIC3bzgGBAiOTwXmXjYNwktz1M6LaYFnLTLUJzxLU=.hash",
       "Source": "\/Users\/michalpapinski\/Desktop\/aws_sample\/src\/Cloud\/Presentation\/FXbox.Cloud.Presentation.Agent\/obj\/Debug\/netstandard2.1\/blazor\/unlinked\/FXbox.Cloud.Presentation.Agent.dll",
       "Target": "obj\/Debug\/netstandard2.1\/compressed\/_framework\/_bin\/FXbox.Cloud.Presentation.Agent.dll.gz"
     },
@@ -291,7 +291,7 @@
       "Target": "obj\/Debug\/netstandard2.1\/compressed\/_framework\/_bin\/Microsoft.AspNetCore.Components.WebAssembly.Authentication.dll.gz"
     },
     {
-      "InputSource": "obj\/Debug\/netstandard2.1\/integrity\/RB2mOs4RpKAqnYacafs8Bbk1l9QIcu9eM-o2pINnlKg=.hash",
+      "InputSource": "obj\/Debug\/netstandard2.1\/integrity\/4DAyQf5kQQoHbD-xktd06jlzTb9YxTq9muzUjxPrFqY=.hash",
       "Source": "\/Users\/michalpapinski\/Desktop\/aws_sample\/src\/Cloud\/Presentation\/FXbox.Cloud.Presentation.Agent\/obj\/Debug\/netstandard2.1\/blazor\/unlinked\/FXbox.Cloud.Presentation.Agent.pdb",
       "Target": "obj\/Debug\/netstandard2.1\/compressed\/_framework\/_bin\/FXbox.Cloud.Presentation.Agent.pdb.gz"
     },
@@ -316,7 +316,7 @@
       "Target": "obj\/Debug\/netstandard2.1\/compressed\/_framework\/blazor.webassembly.js.gz"
     },
     {
-      "InputSource": "obj\/Debug\/netstandard2.1\/integrity\/EE5iJoiTUnrIP7Lyt5TiqtZhxHJgmfEv9mXzzQJL8jM=.hash",
+      "InputSource": "obj\/Debug\/netstandard2.1\/integrity\/HBcqSRaLkc6IrXMAj70hBvqQm4i8ZtJXxjt_X5IZN6E=.hash",
       "Source": "\/Users\/michalpapinski\/Desktop\/aws_sample\/src\/Cloud\/Presentation\/FXbox.Cloud.Presentation.Agent\/obj\/Debug\/netstandard2.1\/blazor\/blazor.boot.json",
       "Target": "obj\/Debug\/netstandard2.1\/compressed\/_framework\/blazor.boot.json.gz"
     }

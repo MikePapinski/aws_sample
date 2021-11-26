@@ -200,7 +200,6 @@
 /Users/michalpapinski/Desktop/aws_sample/src/Cloud/Presentation/FXbox.Cloud.Presentation.Agent/obj/Debug/netstandard2.1/Razor/Shared/SurveyPrompt.razor.g.cs
 /Users/michalpapinski/Desktop/aws_sample/src/Cloud/Presentation/FXbox.Cloud.Presentation.Agent/obj/Debug/netstandard2.1/Razor/_Imports.razor.g.cs
 /Users/michalpapinski/Desktop/aws_sample/src/Cloud/Presentation/FXbox.Cloud.Presentation.Agent/obj/Debug/netstandard2.1/blazor/unlinked.output
-/Users/michalpapinski/Desktop/aws_sample/src/Cloud/Presentation/FXbox.Cloud.Presentation.Agent/obj/Debug/netstandard2.1/integrity/Bq_Ml6wRgFxrX8J2e5XPnbaEE_Gg8OzccvgV9_CactI=.hash
 /Users/michalpapinski/Desktop/aws_sample/src/Cloud/Presentation/FXbox.Cloud.Presentation.Agent/obj/Debug/netstandard2.1/integrity/99dseBOagY3mzu5Y8Eqm8gRI_o8QbbCp7R2Ew9bQ_5E=.hash
 /Users/michalpapinski/Desktop/aws_sample/src/Cloud/Presentation/FXbox.Cloud.Presentation.Agent/obj/Debug/netstandard2.1/integrity/ZxXy75PYbzJxNfAc-SAP1nUYm4gt1jSaOpFnBb9m85M=.hash
 /Users/michalpapinski/Desktop/aws_sample/src/Cloud/Presentation/FXbox.Cloud.Presentation.Agent/obj/Debug/netstandard2.1/integrity/BaZPMj95_YNe3G4ckTGD6szZFwZeA2MOHn91zTGKDeU=.hash
@@ -258,13 +257,11 @@
 /Users/michalpapinski/Desktop/aws_sample/src/Cloud/Presentation/FXbox.Cloud.Presentation.Agent/obj/Debug/netstandard2.1/integrity/K3dpli228kQQ75WVqoiIdmn8u8q8gZHixcWDdCHCRgU=.hash
 /Users/michalpapinski/Desktop/aws_sample/src/Cloud/Presentation/FXbox.Cloud.Presentation.Agent/obj/Debug/netstandard2.1/integrity/dwm_rKImjhxtOmHHVpSxOgl2oh2R26xOWihLaZSv7Vs=.hash
 /Users/michalpapinski/Desktop/aws_sample/src/Cloud/Presentation/FXbox.Cloud.Presentation.Agent/obj/Debug/netstandard2.1/integrity/bu2TOMm0VqB14n4W6w3pSLwHGZbDf8BNl-SZO93kE0w=.hash
-/Users/michalpapinski/Desktop/aws_sample/src/Cloud/Presentation/FXbox.Cloud.Presentation.Agent/obj/Debug/netstandard2.1/integrity/RB2mOs4RpKAqnYacafs8Bbk1l9QIcu9eM-o2pINnlKg=.hash
 /Users/michalpapinski/Desktop/aws_sample/src/Cloud/Presentation/FXbox.Cloud.Presentation.Agent/obj/Debug/netstandard2.1/integrity/mPoqx7XczFHBWk3gRNn0hc9ekG1OvkKY4XiKRY5Mj5U=.hash
 /Users/michalpapinski/Desktop/aws_sample/src/Cloud/Presentation/FXbox.Cloud.Presentation.Agent/obj/Debug/netstandard2.1/integrity/3S0qzYaBEKOBXarzVLNzNAFXlwJr6nI3lFlYUpQTPH8=.hash
 /Users/michalpapinski/Desktop/aws_sample/src/Cloud/Presentation/FXbox.Cloud.Presentation.Agent/obj/Debug/netstandard2.1/integrity/UC-3Rm1NkdNdlIrzYARo_dO-HDlS5mhPxo0IQv7kma8=.hash
 /Users/michalpapinski/Desktop/aws_sample/src/Cloud/Presentation/FXbox.Cloud.Presentation.Agent/obj/Debug/netstandard2.1/integrity/oU0moF6IIkna1pMoSD6Ze63s6aHfjCtUflz7xDmENPg=.hash
 /Users/michalpapinski/Desktop/aws_sample/src/Cloud/Presentation/FXbox.Cloud.Presentation.Agent/obj/Debug/netstandard2.1/blazor/blazor.boot.json
-/Users/michalpapinski/Desktop/aws_sample/src/Cloud/Presentation/FXbox.Cloud.Presentation.Agent/obj/Debug/netstandard2.1/integrity/EE5iJoiTUnrIP7Lyt5TiqtZhxHJgmfEv9mXzzQJL8jM=.hash
 /Users/michalpapinski/Desktop/aws_sample/src/Cloud/Presentation/FXbox.Cloud.Presentation.Agent/obj/Debug/netstandard2.1/compressed/_framework/_bin/FXbox.Cloud.Presentation.Agent.dll.gz
 /Users/michalpapinski/Desktop/aws_sample/src/Cloud/Presentation/FXbox.Cloud.Presentation.Agent/obj/Debug/netstandard2.1/compressed/_framework/_bin/System.Net.Http.Json.dll.gz
 /Users/michalpapinski/Desktop/aws_sample/src/Cloud/Presentation/FXbox.Cloud.Presentation.Agent/obj/Debug/netstandard2.1/compressed/_framework/_bin/System.Buffers.dll.gz
@@ -399,3 +396,14 @@
 /Users/michalpapinski/Desktop/aws_sample/src/Cloud/Presentation/FXbox.Cloud.Presentation.Agent/obj/Debug/netstandard2.1/FXbox.Cloud.Presentation.Agent.csproj.CopyComplete
 /Users/michalpapinski/Desktop/aws_sample/src/Cloud/Presentation/FXbox.Cloud.Presentation.Agent/obj/Debug/netstandard2.1/FXbox.Cloud.Presentation.Agent.dll
 /Users/michalpapinski/Desktop/aws_sample/src/Cloud/Presentation/FXbox.Cloud.Presentation.Agent/obj/Debug/netstandard2.1/FXbox.Cloud.Presentation.Agent.pdb
+/Users/michalpapinski/Desktop/aws_sample/src/Cloud/Presentation/FXbox.Cloud.Presentation.Agent/obj/Debug/netstandard2.1/RazorDeclaration/Pages/Agents.razor.g.cs
+/Users/michalpapinski/Desktop/aws_sample/src/Cloud/Presentation/FXbox.Cloud.Presentation.Agent/obj/Debug/netstandard2.1/RazorDeclaration/Pages/Logs.razor.g.cs
+/Users/michalpapinski/Desktop/aws_sample/src/Cloud/Presentation/FXbox.Cloud.Presentation.Agent/obj/Debug/netstandard2.1/RazorDeclaration/Pages/Users.razor.g.cs
+/Users/michalpapinski/Desktop/aws_sample/src/Cloud/Presentation/FXbox.Cloud.Presentation.Agent/obj/Debug/netstandard2.1/Razor/Pages/Agents.razor.g.cs
+/Users/michalpapinski/Desktop/aws_sample/src/Cloud/Presentation/FXbox.Cloud.Presentation.Agent/obj/Debug/netstandard2.1/Razor/Pages/Logs.razor.g.cs
+/Users/michalpapinski/Desktop/aws_sample/src/Cloud/Presentation/FXbox.Cloud.Presentation.Agent/obj/Debug/netstandard2.1/Razor/Pages/Users.razor.g.cs
+/Users/michalpapinski/Desktop/aws_sample/src/Cloud/Presentation/FXbox.Cloud.Presentation.Agent/obj/Debug/netstandard2.1/RazorDeclaration/Pages/Agent.razor.g.cs
+/Users/michalpapinski/Desktop/aws_sample/src/Cloud/Presentation/FXbox.Cloud.Presentation.Agent/obj/Debug/netstandard2.1/Razor/Pages/Agent.razor.g.cs
+/Users/michalpapinski/Desktop/aws_sample/src/Cloud/Presentation/FXbox.Cloud.Presentation.Agent/obj/Debug/netstandard2.1/integrity/Z5LIC3bzgGBAiOTwXmXjYNwktz1M6LaYFnLTLUJzxLU=.hash
+/Users/michalpapinski/Desktop/aws_sample/src/Cloud/Presentation/FXbox.Cloud.Presentation.Agent/obj/Debug/netstandard2.1/integrity/4DAyQf5kQQoHbD-xktd06jlzTb9YxTq9muzUjxPrFqY=.hash
+/Users/michalpapinski/Desktop/aws_sample/src/Cloud/Presentation/FXbox.Cloud.Presentation.Agent/obj/Debug/netstandard2.1/integrity/HBcqSRaLkc6IrXMAj70hBvqQm4i8ZtJXxjt_X5IZN6E=.hash
